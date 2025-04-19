@@ -1,0 +1,73 @@
+---
+title: "About Me"
+format: html
+toc: true
+page-layout: full
+about:
+    template: jolla
+    image: images/logo.png
+    image-width: 14em
+    image-shape: round
+    links:
+        - icon: linkedin
+          href: https://www.linkedin.com/in/sahil-bhattacharya-257924228
+          target: _blank
+          text: LinkedIn
+        - icon: github
+          href: https://github.com/saahi0206
+          target: _blank
+          text: GitHub
+        - icon: envelope
+          href: mailto:saahil.bhatt30@gmail.com
+          text: Email
+        - text: "📄 Download CV"
+          href: cv/sahil-bhattacharya-cv.pdf
+          target: _blank
+---
+
+## Biography
+
+My name is **Sahil Ashish Bhattacharya**. I am currently pursuing an **MSc in Business Analytics** at **Dublin City University (DCU)**, Dublin, Ireland.
+
+My academic journey has given me a strong foundation in quantitative methods, data-driven decision-making, and applied machine learning. I am particularly interested in how AI and ML can be deployed to address real business challenges — from customer retention strategy to natural language processing pipelines.
+
+I enjoy working with data end-to-end: gathering and cleaning raw datasets, building and evaluating predictive models, and communicating insights clearly to both technical and non-technical audiences.
+
+---
+
+## Education
+
+**MSc Business Analytics**
+Dublin City University (DCU) · Dublin, Ireland · 2024 – Present
+
+---
+
+## Technical Skills
+
+- **Programming:** Python (pandas, scikit-learn, matplotlib, seaborn, transformers), SQL
+- **Machine Learning:** Classification, Regression, Clustering, Hyperparameter Tuning, Model Evaluation
+- **NLP & AI:** BERT, Transformer Models, Text Classification, Generative AI
+- **Data Analytics:** Exploratory Data Analysis, Statistical Modelling, Data Visualisation
+- **Tools:** Jupyter Notebook, Google Colab, Git, GitHub, Quarto
+- **Business:** CRM Strategy, Customer Segmentation, Business Reporting
+
+---
+
+## Interests
+
+- Machine Learning & Artificial Intelligence
+- Natural Language Processing
+- Business Analytics & Data-Driven Strategy
+- Python Programming
+- CRM & Customer Retention Analytics
+
+---
+
+## Contact
+
+| | |
+|--|--|
+| 📧 Email | [saahil.bhatt30@gmail.com](mailto:saahil.bhatt30@gmail.com) |
+| 💼 LinkedIn | [linkedin.com/in/sahil-bhattacharya-257924228](https://www.linkedin.com/in/sahil-bhattacharya-257924228) |
+| 🐙 GitHub | [github.com/saahi0206](https://github.com/saahi0206) |
+| 📄 CV | [Download PDF](cv/sahil-bhattacharya-cv.pdf) |

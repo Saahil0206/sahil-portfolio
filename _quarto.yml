@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Sahil Bhattacharya"
+  favicon: images/favicon.png
+  page-footer:
+    left: "© 2025 Sahil Ashish Bhattacharya · MSc Business Analytics · Dublin City University"
+    right:
+      - icon: github
+        href: https://github.com/saahi0206
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sahil-bhattacharya-257924228
+        target: _blank
+      - text: "Built with Quarto"
+  navbar:
+    logo: images/logo.png
+    logo-alt: "Sahil Bhattacharya logo"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects/index.qmd
+        text: Projects
+      - href: reflection.qmd
+        text: Reflection
+      - href: contact.qmd
+        text: Contact
+    right:
+      - href: cv/sahil-bhattacharya-cv.pdf
+        text: "📄 CV"
+        target: _blank
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.scss
+    toc: false
+    page-layout: full

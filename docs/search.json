@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "My name is Sahil Ashish Bhattacharya. I am currently pursuing an MSc in Business Analytics at Dublin City University (DCU), Dublin, Ireland.\nMy academic journey has given me a strong foundation in quantitative methods, data-driven decision-making, and applied machine learning. I am particularly interested in how AI and ML can be deployed to address real business challenges — from customer retention strategy to natural language processing pipelines.\nI enjoy working with data end-to-end: gathering and cleaning raw datasets, building and evaluating predictive models, and communicating insights clearly to both technical and non-technical audiences."
+  },
+  {
+    "objectID": "about.html#biography",
+    "href": "about.html#biography",
+    "title": "About Me",
+    "section": "",
+    "text": "My name is Sahil Ashish Bhattacharya. I am currently pursuing an MSc in Business Analytics at Dublin City University (DCU), Dublin, Ireland.\nMy academic journey has given me a strong foundation in quantitative methods, data-driven decision-making, and applied machine learning. I am particularly interested in how AI and ML can be deployed to address real business challenges — from customer retention strategy to natural language processing pipelines.\nI enjoy working with data end-to-end: gathering and cleaning raw datasets, building and evaluating predictive models, and communicating insights clearly to both technical and non-technical audiences."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\nMSc Business Analytics Dublin City University (DCU) · Dublin, Ireland · 2024 – Present"
+  },
+  {
+    "objectID": "about.html#technical-skills",
+    "href": "about.html#technical-skills",
+    "title": "About Me",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nProgramming: Python (pandas, scikit-learn, matplotlib, seaborn, transformers), SQL\nMachine Learning: Classification, Regression, Clustering, Hyperparameter Tuning, Model Evaluation\nNLP & AI: BERT, Transformer Models, Text Classification, Generative AI\nData Analytics: Exploratory Data Analysis, Statistical Modelling, Data Visualisation\nTools: Jupyter Notebook, Google Colab, Git, GitHub, Quarto\nBusiness: CRM Strategy, Customer Segmentation, Business Reporting"
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About Me",
+    "section": "Interests",
+    "text": "Interests\n\nMachine Learning & Artificial Intelligence\nNatural Language Processing\nBusiness Analytics & Data-Driven Strategy\nPython Programming\nCRM & Customer Retention Analytics"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n📧 Email\nsaahil.bhatt30@gmail.com\n\n\n💼 LinkedIn\nlinkedin.com/in/sahil-bhattacharya-257924228\n\n\n🐙 GitHub\ngithub.com/saahi0206\n\n\n📄 CV\nDownload PDF"
+  },
+  {
+    "objectID": "projects/project-fai-crm.html",
+    "href": "projects/project-fai-crm.html",
+    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
+    "section": "",
+    "text": "This project was completed as part of my MSc in Business Analytics at Dublin City University. Working within a team, we tackled a real-world CRM challenge facing the Football Association of Ireland (FAI): how to build genuine, long-term fan loyalty in a stadium environment where sell-out crowds can mask underlying weaknesses in independent fan retention.\nMy Role: Data Sourcing & Collection Lead"
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#project-overview",
+    "href": "projects/project-fai-crm.html#project-overview",
+    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
+    "section": "",
+    "text": "This project was completed as part of my MSc in Business Analytics at Dublin City University. Working within a team, we tackled a real-world CRM challenge facing the Football Association of Ireland (FAI): how to build genuine, long-term fan loyalty in a stadium environment where sell-out crowds can mask underlying weaknesses in independent fan retention.\nMy Role: Data Sourcing & Collection Lead"
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#the-business-problem",
+    "href": "projects/project-fai-crm.html#the-business-problem",
+    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
+    "section": "The Business Problem",
+    "text": "The Business Problem\nAviva Stadium regularly achieves high attendance figures, which on the surface suggests strong demand. However, sell-out events can obscure an important risk: much of the attendance may be driven by transactional, occasion-based purchasing rather than deep, loyalty-driven fan relationships.\nA key insight we identified early in the project was the youth pipeline problem. A significant proportion of younger attendees arrive not as independent fans, but through their parents or via youth football participation. This makes their ticket purchases conditional — tied to family decisions and youth team involvement rather than a personal, independent attachment to the national team. When those pathways fall away (e.g., a child ages out of youth football, a parent stops attending), there is no guarantee the attendee converts into a loyal adult fan.\nThis distinction — between transactional attendance and relationship-driven loyalty — became the central analytical lens for the project."
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#data-sourcing-collection",
+    "href": "projects/project-fai-crm.html#data-sourcing-collection",
+    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
+    "section": "Data Sourcing & Collection",
+    "text": "Data Sourcing & Collection\nMy primary contribution was leading the data sourcing and collection strategy — thinking through what data would be needed to properly model fan retention, age-based cohort behaviour, and customer lifetime value in the FAI context.\nKey data dimensions I identified as essential for a full CRM analysis:\n\nTicket purchase history — repeat purchase rates, inter-match gap analysis, cohort retention curves\nAge at first purchase — to model fan acquisition age and long-term retention probability\nYouth football registration linkage — to identify attendees whose engagement is mediated by club or school participation\nGeographic data — to understand regional fan density and distance-decay effects on repeat attendance\nCommunication touchpoint data — email open rates, campaign engagement, conversion to purchase\n\nOne of the core challenges I highlighted is that much of this data exists across siloed systems — ticketing platforms, grassroots registration databases, email marketing tools — and would require careful integration before any segmentation or predictive modelling could be applied."
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#analytical-approach",
+    "href": "projects/project-fai-crm.html#analytical-approach",
+    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
+    "section": "Analytical Approach",
+    "text": "Analytical Approach\nBased on the data framework I outlined, the team developed a cohort-based CRM strategy structured around three fan segments:\n\n\n\n\n\n\n\n\nSegment\nDescription\nCRM Priority\n\n\n\n\nYouth-linked\nAttending via parent/youth club\nConvert to independent fans before pathway ends\n\n\nLapsed adult\nPreviously regular, no recent purchase\nRe-engagement campaigns, targeted offers\n\n\nLoyal adult\nConsistent repeat purchasers\nRetention, upsell, advocacy programmes\n\n\n\nA key recommendation was to begin tracking age-based drop-off points — the ages at which youth-linked attendees either convert to independent loyalty or disengage entirely — and to use this to trigger proactive CRM outreach at the right moment."
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#reflection",
+    "href": "projects/project-fai-crm.html#reflection",
+    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
+    "section": "Reflection",
+    "text": "Reflection\nThis project fundamentally changed how I think about data collection decisions and their downstream consequences.\nBefore this project, I thought of data sourcing as a preparatory step — something you do before the “real” analysis begins. Working on this project showed me that data collection is the analysis, in an important sense. The decision of what to collect, and what not to collect, directly shapes what questions you can later answer. In the FAI context, a CRM team that only tracks whether tickets were sold — without tracking who bought them, why, and how they were connected to the game — is systematically blind to its most important retention risks.\nUnderstanding the youth cohort dynamic was particularly instructive. It illustrated how aggregate metrics (sell-out rate, total attendance) can be misleading if they are not disaggregated by behavioural segment. A stadium that is always full is not necessarily building a loyal fanbase — it may simply be drawing on a large pool of occasional or event-driven visitors who will not return consistently.\nThis project also improved my thinking about stakeholder needs in analytics. The FAI’s CRM challenge is not purely a data problem; it is a business strategy problem with a data component. Framing the analysis around the organisation’s actual strategic objective — building independent, long-term fan loyalty — kept the work grounded and relevant, rather than technical for its own sake.\nI came away with a much stronger appreciation of how data collection strategy, business problem framing, and CRM design are inseparable in applied analytics work."
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#tools-methods",
+    "href": "projects/project-fai-crm.html#tools-methods",
+    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\n\nPython (pandas, matplotlib, seaborn)\nCohort analysis framework\nCustomer segmentation logic\nCRM strategy mapping\nData architecture planning (ticketing, grassroots, comms systems)"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "My MSc in Business Analytics at Dublin City University has involved applied projects across CRM strategy, machine learning, and natural language processing. Each project below reflects hands-on analytical work combining technical and business thinking.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBERT vs Generative AI for Text Classification\n\n\nComparing transformer-based classification (BERT) with generative AI approaches for NLP text analysis tasks in a Jupyter notebook environment.\n\n\n\n\n\n\n\n\n\n\n\n\nCohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland\n\n\nAnalysing fan cohort behaviour and ticket sales patterns to inform CRM and customer retention strategy for the FAI at Aviva Stadium.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am open to internship opportunities, graduate roles, research collaborations, and general enquiries. Feel free to reach out through any of the channels below.\n\n\n📧 saahil.bhatt30@gmail.com 💼 linkedin.com/in/sahil-bhattacharya-257924228 🐙 github.com/saahi0206\n\n\n\n\n\n\nYour name \nYour email \nMessage\n\n\nSend Message\n\n\n\n\nOne step needed: Sign up free at formspree.io, create a form, and replace YOUR_FORMSPREE_ID in contact.qmd with your form ID. The form will then deliver messages directly to your email."
+  },
+  {
+    "objectID": "contact.html#send-a-message",
+    "href": "contact.html#send-a-message",
+    "title": "Contact",
+    "section": "",
+    "text": "Your name \nYour email \nMessage\n\n\nSend Message\n\n\n\n\nOne step needed: Sign up free at formspree.io, create a form, and replace YOUR_FORMSPREE_ID in contact.qmd with your form ID. The form will then deliver messages directly to your email."
+  },
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection",
+    "section": "",
+    "text": "Building this portfolio website has been one of the more unexpectedly rewarding experiences of my MSc in Business Analytics at Dublin City University. Coming from a background with a growing interest in technology and data, I had some familiarity with analytical tools — but creating and publishing a personal website from scratch was an entirely new challenge.\nThe process began with getting to grips with Quarto — a publishing framework I had not worked with before. Understanding the relationship between .qmd source files, the _quarto.yml configuration, and the final rendered HTML output required patience and careful reading of documentation. Early on, small configuration errors caused the entire site to fail to render, which quickly taught me the value of incremental changes and version control.\nOne of the most valuable aspects of this project was learning to think about content structurally. Deciding what to include on each page — and how to organise the navbar, footer, and project listings — forced me to consider the audience: recruiters, academic supervisors, and future collaborators. This perspective directly influenced the writing across the site, pushing me toward a tone that is clear, professional, and purposeful.\nWorking with GitHub for deployment also deepened my understanding of version control workflows. Committing changes, pushing to a remote repository, and enabling GitHub Pages as the publishing source were skills that had previously felt abstract but now feel genuinely practical — and directly transferable to collaborative data projects in a professional setting.\nThe technical challenges — fixing broken file paths, correctly linking project pages, ensuring consistent rendering — closely mirrored real-world data pipeline problems: small upstream errors cascade into downstream failures, and systematic debugging is always more efficient than guesswork.\nOverall, this project has strengthened my technical confidence and produced a professional artefact I am proud to share. It has also reinforced a broader lesson I am taking from my MSc: the ability to communicate analytical work clearly — to structure, present, and contextualise findings — is just as important as the analysis itself."
+  },
+  {
+    "objectID": "reflection.html#reflective-statement",
+    "href": "reflection.html#reflective-statement",
+    "title": "Reflection",
+    "section": "",
+    "text": "Building this portfolio website has been one of the more unexpectedly rewarding experiences of my MSc in Business Analytics at Dublin City University. Coming from a background with a growing interest in technology and data, I had some familiarity with analytical tools — but creating and publishing a personal website from scratch was an entirely new challenge.\nThe process began with getting to grips with Quarto — a publishing framework I had not worked with before. Understanding the relationship between .qmd source files, the _quarto.yml configuration, and the final rendered HTML output required patience and careful reading of documentation. Early on, small configuration errors caused the entire site to fail to render, which quickly taught me the value of incremental changes and version control.\nOne of the most valuable aspects of this project was learning to think about content structurally. Deciding what to include on each page — and how to organise the navbar, footer, and project listings — forced me to consider the audience: recruiters, academic supervisors, and future collaborators. This perspective directly influenced the writing across the site, pushing me toward a tone that is clear, professional, and purposeful.\nWorking with GitHub for deployment also deepened my understanding of version control workflows. Committing changes, pushing to a remote repository, and enabling GitHub Pages as the publishing source were skills that had previously felt abstract but now feel genuinely practical — and directly transferable to collaborative data projects in a professional setting.\nThe technical challenges — fixing broken file paths, correctly linking project pages, ensuring consistent rendering — closely mirrored real-world data pipeline problems: small upstream errors cascade into downstream failures, and systematic debugging is always more efficient than guesswork.\nOverall, this project has strengthened my technical confidence and produced a professional artefact I am proud to share. It has also reinforced a broader lesson I am taking from my MSc: the ability to communicate analytical work clearly — to structure, present, and contextualise findings — is just as important as the analysis itself."
+  },
+  {
+    "objectID": "projects/project-bert-genai.html",
+    "href": "projects/project-bert-genai.html",
+    "title": "BERT vs Generative AI for Text Classification",
+    "section": "",
+    "text": "This project was completed as part of my MSc in Business Analytics at Dublin City University. The assessment involved working in a Jupyter notebook environment to implement and evaluate two distinct approaches to text classification: a traditional BERT-based transformer model and a Generative AI approach, comparing their performance, workflow characteristics, and practical trade-offs."
+  },
+  {
+    "objectID": "projects/project-bert-genai.html#project-overview",
+    "href": "projects/project-bert-genai.html#project-overview",
+    "title": "BERT vs Generative AI for Text Classification",
+    "section": "",
+    "text": "This project was completed as part of my MSc in Business Analytics at Dublin City University. The assessment involved working in a Jupyter notebook environment to implement and evaluate two distinct approaches to text classification: a traditional BERT-based transformer model and a Generative AI approach, comparing their performance, workflow characteristics, and practical trade-offs."
+  },
+  {
+    "objectID": "projects/project-bert-genai.html#background",
+    "href": "projects/project-bert-genai.html#background",
+    "title": "BERT vs Generative AI for Text Classification",
+    "section": "Background",
+    "text": "Background\nText classification is a foundational NLP task with wide business applications — from sentiment analysis of customer feedback to automated document routing, spam filtering, and topic categorisation. Two major paradigms have emerged for tackling these tasks:\n\nBERT-style discriminative models — fine-tuned transformer encoders that learn to classify input text directly into predefined categories. Well-suited to structured, supervised classification with labelled training data.\nGenerative AI approaches — large language models prompted to perform classification through instruction following, few-shot prompting, or zero-shot reasoning. Require no fine-tuning but rely on prompt design and model capability.\n\nComparing these approaches — not just on accuracy, but on interpretability, resource requirements, workflow design, and business fit — was the core analytical challenge of this project."
+  },
+  {
+    "objectID": "projects/project-bert-genai.html#methodology",
+    "href": "projects/project-bert-genai.html#methodology",
+    "title": "BERT vs Generative AI for Text Classification",
+    "section": "Methodology",
+    "text": "Methodology\n\nBERT-Based Classification\nThe BERT pipeline involved:\n\nTokenisation using the Hugging Face transformers library (bert-base-uncased)\nFine-tuning on a labelled text dataset with a classification head\nEvaluation using accuracy, F1 score, and confusion matrix analysis\nTraining via Google Colab with GPU runtime to manage compute requirements\n\n\n\nGenerative AI Approach\nThe generative AI pipeline involved:\n\nZero-shot and few-shot prompting to elicit classifications from a large language model\nPrompt engineering to structure inputs consistently and extract structured label outputs\nEvaluation on the same held-out test set for direct comparison with BERT"
+  },
+  {
+    "objectID": "projects/project-bert-genai.html#key-findings",
+    "href": "projects/project-bert-genai.html#key-findings",
+    "title": "BERT vs Generative AI for Text Classification",
+    "section": "Key Findings",
+    "text": "Key Findings\n\n\n\n\n\n\n\n\nDimension\nBERT\nGenerative AI\n\n\n\n\nAccuracy (test set)\nStrong on in-distribution data\nCompetitive on ambiguous cases\n\n\nTraining required\nYes — labelled data needed\nNo — zero-shot capable\n\n\nInterpretability\nModerate (attention weights)\nLow (black-box prompting)\n\n\nLatency\nFast at inference\nSlower per call\n\n\nWorkflow complexity\nHigher (fine-tuning pipeline)\nLower (prompt-based)\n\n\nBest fit\nHigh-volume, structured tasks\nExploratory or low-resource settings\n\n\n\nThe comparison revealed that model choice is not just an accuracy decision — it is a workflow design decision that depends on the volume of labelled data available, the required inference speed, the interpretability demands of the use case, and the cost of model deployment."
+  },
+  {
+    "objectID": "projects/project-bert-genai.html#reflection",
+    "href": "projects/project-bert-genai.html#reflection",
+    "title": "BERT vs Generative AI for Text Classification",
+    "section": "Reflection",
+    "text": "Reflection\nThis project had a significant impact on how I think about model selection in applied NLP.\nGoing into it, I expected the comparison to be straightforward: BERT would win on accuracy for a structured classification task, and generative AI would be less precise but more flexible. What I found was more nuanced. Generative AI approaches performed surprisingly well on ambiguous or edge-case examples where context and semantic understanding mattered more than pattern matching on labelled training examples. BERT, by contrast, was more consistent and reliable on clear, in-distribution cases where sufficient labelled data had been provided.\nMore importantly, I came to understand that the framing of “which model is better” is often the wrong question. The better question is: better for what, in what context, with what constraints? A business deploying a customer service routing tool at scale needs speed, consistency, and low operational cost — BERT fine-tuned on their specific categories is likely the right tool. An analyst quickly exploring the themes in a new corpus of documents, without labelled data, may get more value from a generative AI approach in hours rather than weeks.\nWorking inside a Jupyter notebook also reinforced the importance of clear, reproducible experimental structure. Tracking experiments, documenting preprocessing decisions, and presenting evaluation results in a readable format are skills I actively practised and improved through this project.\nThe project deepened my interest in NLP and applied machine learning considerably. It also gave me a much more grounded understanding of the practical engineering trade-offs involved in deploying language models — something that is increasingly relevant for anyone working in business analytics as AI tools become standard components of the analytics stack."
+  },
+  {
+    "objectID": "projects/project-bert-genai.html#tools-methods",
+    "href": "projects/project-bert-genai.html#tools-methods",
+    "title": "BERT vs Generative AI for Text Classification",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\n\nPython (transformers, torch, scikit-learn, pandas, numpy)\nHugging Face bert-base-uncased\nJupyter Notebook / Google Colab\nZero-shot and few-shot prompting\nF1 score, accuracy, confusion matrix evaluation"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sahil Ashish Bhattacharya",
+    "section": "",
+    "text": "I’m Sahil Ashish Bhattacharya, an MSc Business Analytics student at Dublin City University (DCU), Dublin, Ireland.\nMy work sits at the intersection of data, technology, and business strategy. I am passionate about Machine Learning, Artificial Intelligence, Data Analytics, and Python — and how these tools can create measurable impact in real-world business contexts.\nThrough my MSc programme I have worked on applied projects spanning CRM strategy, NLP text classification, and transformer-based AI modelling. I am actively seeking internship and graduate opportunities where I can apply these skills.\nExplore my projects and reflections using the navigation above. 🚀"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Sahil Ashish Bhattacharya",
+    "section": "",
+    "text": "I’m Sahil Ashish Bhattacharya, an MSc Business Analytics student at Dublin City University (DCU), Dublin, Ireland.\nMy work sits at the intersection of data, technology, and business strategy. I am passionate about Machine Learning, Artificial Intelligence, Data Analytics, and Python — and how these tools can create measurable impact in real-world business contexts.\nThrough my MSc programme I have worked on applied projects spanning CRM strategy, NLP text classification, and transformer-based AI modelling. I am actively seeking internship and graduate opportunities where I can apply these skills.\nExplore my projects and reflections using the navigation above. 🚀"
+  }
+]

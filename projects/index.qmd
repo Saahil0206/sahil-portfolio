@@ -1,0 +1,13 @@
+---
+title: "Projects"
+format: html
+page-layout: full
+listing:
+    contents: "."
+    type: grid
+    fields: [title, description, image]
+    exclude:
+        filename: "index.qmd"
+---
+
+My MSc in Business Analytics at Dublin City University has involved applied projects across CRM strategy, machine learning, and natural language processing. Each project below reflects hands-on analytical work combining technical and business thinking.

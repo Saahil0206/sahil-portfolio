@@ -1,0 +1,20 @@
+---
+title: "Reflection"
+subtitle: "MSc Business Analytics — Portfolio Module"
+format: html
+page-layout: article
+---
+
+## Reflective Statement
+
+Building this portfolio website has been one of the more unexpectedly rewarding experiences of my MSc in Business Analytics at Dublin City University. Coming from a background with a growing interest in technology and data, I had some familiarity with analytical tools — but creating and publishing a personal website from scratch was an entirely new challenge.
+
+The process began with getting to grips with Quarto — a publishing framework I had not worked with before. Understanding the relationship between `.qmd` source files, the `_quarto.yml` configuration, and the final rendered HTML output required patience and careful reading of documentation. Early on, small configuration errors caused the entire site to fail to render, which quickly taught me the value of incremental changes and version control.
+
+One of the most valuable aspects of this project was learning to think about content structurally. Deciding what to include on each page — and how to organise the navbar, footer, and project listings — forced me to consider the audience: recruiters, academic supervisors, and future collaborators. This perspective directly influenced the writing across the site, pushing me toward a tone that is clear, professional, and purposeful.
+
+Working with GitHub for deployment also deepened my understanding of version control workflows. Committing changes, pushing to a remote repository, and enabling GitHub Pages as the publishing source were skills that had previously felt abstract but now feel genuinely practical — and directly transferable to collaborative data projects in a professional setting.
+
+The technical challenges — fixing broken file paths, correctly linking project pages, ensuring consistent rendering — closely mirrored real-world data pipeline problems: small upstream errors cascade into downstream failures, and systematic debugging is always more efficient than guesswork.
+
+Overall, this project has strengthened my technical confidence and produced a professional artefact I am proud to share. It has also reinforced a broader lesson I am taking from my MSc: the ability to communicate analytical work clearly — to structure, present, and contextualise findings — is just as important as the analysis itself.

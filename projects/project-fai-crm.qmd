@@ -1,0 +1,77 @@
+---
+title: "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland"
+description: "Analysing fan cohort behaviour and ticket sales patterns to inform CRM and customer retention strategy for the FAI at Aviva Stadium."
+image: ../images/project1.png
+format: html
+page-layout: article
+---
+
+## Project Overview
+
+This project was completed as part of my MSc in Business Analytics at Dublin City University. Working within a team, we tackled a real-world CRM challenge facing the **Football Association of Ireland (FAI)**: how to build genuine, long-term fan loyalty in a stadium environment where sell-out crowds can mask underlying weaknesses in independent fan retention.
+
+**My Role:** Data Sourcing & Collection Lead
+
+---
+
+## The Business Problem
+
+Aviva Stadium regularly achieves high attendance figures, which on the surface suggests strong demand. However, sell-out events can obscure an important risk: much of the attendance may be driven by transactional, occasion-based purchasing rather than deep, loyalty-driven fan relationships.
+
+A key insight we identified early in the project was the **youth pipeline problem**. A significant proportion of younger attendees arrive not as independent fans, but through their parents or via youth football participation. This makes their ticket purchases conditional — tied to family decisions and youth team involvement rather than a personal, independent attachment to the national team. When those pathways fall away (e.g., a child ages out of youth football, a parent stops attending), there is no guarantee the attendee converts into a loyal adult fan.
+
+This distinction — between **transactional attendance** and **relationship-driven loyalty** — became the central analytical lens for the project.
+
+---
+
+## Data Sourcing & Collection
+
+My primary contribution was leading the **data sourcing and collection strategy** — thinking through what data would be needed to properly model fan retention, age-based cohort behaviour, and customer lifetime value in the FAI context.
+
+Key data dimensions I identified as essential for a full CRM analysis:
+
+- **Ticket purchase history** — repeat purchase rates, inter-match gap analysis, cohort retention curves
+- **Age at first purchase** — to model fan acquisition age and long-term retention probability
+- **Youth football registration linkage** — to identify attendees whose engagement is mediated by club or school participation
+- **Geographic data** — to understand regional fan density and distance-decay effects on repeat attendance
+- **Communication touchpoint data** — email open rates, campaign engagement, conversion to purchase
+
+One of the core challenges I highlighted is that much of this data exists across siloed systems — ticketing platforms, grassroots registration databases, email marketing tools — and would require careful integration before any segmentation or predictive modelling could be applied.
+
+---
+
+## Analytical Approach
+
+Based on the data framework I outlined, the team developed a **cohort-based CRM strategy** structured around three fan segments:
+
+| Segment | Description | CRM Priority |
+|---------|-------------|-------------|
+| Youth-linked | Attending via parent/youth club | Convert to independent fans before pathway ends |
+| Lapsed adult | Previously regular, no recent purchase | Re-engagement campaigns, targeted offers |
+| Loyal adult | Consistent repeat purchasers | Retention, upsell, advocacy programmes |
+
+A key recommendation was to begin tracking **age-based drop-off points** — the ages at which youth-linked attendees either convert to independent loyalty or disengage entirely — and to use this to trigger proactive CRM outreach at the right moment.
+
+---
+
+## Reflection
+
+This project fundamentally changed how I think about data collection decisions and their downstream consequences.
+
+Before this project, I thought of data sourcing as a preparatory step — something you do before the "real" analysis begins. Working on this project showed me that data collection *is* the analysis, in an important sense. The decision of what to collect, and what not to collect, directly shapes what questions you can later answer. In the FAI context, a CRM team that only tracks whether tickets were sold — without tracking *who* bought them, *why*, and *how* they were connected to the game — is systematically blind to its most important retention risks.
+
+Understanding the youth cohort dynamic was particularly instructive. It illustrated how aggregate metrics (sell-out rate, total attendance) can be misleading if they are not disaggregated by behavioural segment. A stadium that is always full is not necessarily building a loyal fanbase — it may simply be drawing on a large pool of occasional or event-driven visitors who will not return consistently.
+
+This project also improved my thinking about stakeholder needs in analytics. The FAI's CRM challenge is not purely a data problem; it is a business strategy problem with a data component. Framing the analysis around the organisation's actual strategic objective — building independent, long-term fan loyalty — kept the work grounded and relevant, rather than technical for its own sake.
+
+I came away with a much stronger appreciation of how data collection strategy, business problem framing, and CRM design are inseparable in applied analytics work.
+
+---
+
+## Tools & Methods
+
+- Python (pandas, matplotlib, seaborn)
+- Cohort analysis framework
+- Customer segmentation logic
+- CRM strategy mapping
+- Data architecture planning (ticketing, grassroots, comms systems)

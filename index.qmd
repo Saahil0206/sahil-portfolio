@@ -1,0 +1,35 @@
+---
+title: "Sahil Ashish Bhattacharya"
+format: html
+page-layout: full
+about:
+    template: trestles
+    image: images/logo.png
+    image-width: 16em
+    image-shape: round
+    links:
+        - icon: linkedin
+          href: https://www.linkedin.com/in/sahil-bhattacharya-257924228
+          target: _blank
+          text: LinkedIn
+        - icon: github
+          href: https://github.com/saahi0206
+          target: _blank
+          text: GitHub
+        - icon: envelope
+          href: mailto:saahil.bhatt30@gmail.com
+          text: Email
+        - text: "📄 CV"
+          href: cv/sahil-bhattacharya-cv.pdf
+          target: _blank
+---
+
+## Welcome 👋
+
+I'm **Sahil Ashish Bhattacharya**, an MSc Business Analytics student at **Dublin City University (DCU)**, Dublin, Ireland.
+
+My work sits at the intersection of data, technology, and business strategy. I am passionate about **Machine Learning**, **Artificial Intelligence**, **Data Analytics**, and **Python** — and how these tools can create measurable impact in real-world business contexts.
+
+Through my MSc programme I have worked on applied projects spanning CRM strategy, NLP text classification, and transformer-based AI modelling. I am actively seeking internship and graduate opportunities where I can apply these skills.
+
+Explore my projects and reflections using the navigation above. 🚀
