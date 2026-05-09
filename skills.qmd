@@ -1,0 +1,47 @@
+---
+title: "Skills"
+---
+
+::: {.page-title}
+Technical and analytical skills developed through MSc coursework, applied projects, and independent portfolio work.
+:::
+
+::: {.section}
+::: {.skills-grid}
+::: {.skill-card}
+### Python
+
+Data cleaning, analysis, visualisation, model building, and notebook-based experimentation using pandas, scikit-learn, matplotlib, seaborn, and transformers.
+:::
+
+::: {.skill-card}
+### SQL
+
+Querying, joining, filtering, and structuring relational data for business analytics workflows.
+:::
+
+::: {.skill-card}
+### Machine Learning
+
+Classification, regression, clustering, model evaluation, confusion matrices, F1 score, and practical experimentation.
+:::
+
+::: {.skill-card}
+### NLP
+
+Text classification, transformer models, BERT, prompt-based classification, and generative AI comparison.
+:::
+
+::: {.skill-card}
+### Power BI
+
+Dashboard thinking, KPI communication, stakeholder reporting, and visual analytics.
+:::
+
+::: {.skill-card}
+### Excel
+
+Data preparation, spreadsheet modelling, formulas, pivot tables, and business-facing analysis.
+:::
+:::
+:::

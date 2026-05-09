@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About Me – Sahil Bhattacharya</title>
+<title>About – Sahil Bhattacharya</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -38,15 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-5685cd926c25366c96d9f1407e584118.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3667bbe32c8f7c6fa279a15aee57bd48.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,182 +73,15 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.scss">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="Sahil Bhattacharya logo" class="navbar-logo light-content">
-    <img src="./images/logo.png" alt="Sahil Bhattacharya logo" class="navbar-logo dark-content">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Sahil Bhattacharya</span>
     </a>
@@ -268,30 +98,37 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects/index.html"> 
-<span class="menu-text">Projects</span></a>
+<span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./reflection.html"> 
-<span class="menu-text">Reflection</span></a>
+    <a class="nav-link" href="./skills.html"> 
+<span class="menu-text">Skills</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./media.html"> 
+<span class="menu-text">Media</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blogs.html"> 
+<span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+<span class="menu-text">Contact Details</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./cv/sahil-bhattacharya-cv.pdf" target="_blank"> 
-<span class="menu-text">📄 CV</span></a>
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -300,127 +137,139 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#biography" id="toc-biography" class="nav-link active" data-scroll-target="#biography">Biography</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
-  <li><a href="#interests" id="toc-interests" class="nav-link" data-scroll-target="#interests">Interests</a></li>
-  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<div class="quarto-about-jolla column-page-left">
-  <img src="images/logo.png" class="about-image
-  round " style="height: 14em; width: 14em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About Me</h1>
+<h1 class="title">About</h1>
 </div>
-<div class="quarto-title-meta column-page-left">
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
-</header><main class="content column-page-left" id="quarto-document-content">
+  
 
 
-<section id="biography" class="level2">
-<h2 data-anchor-id="biography">Biography</h2>
-<p>My name is <strong>Sahil Ashish Bhattacharya</strong>. I am currently pursuing an <strong>MSc in Business Analytics</strong> at <strong>Dublin City University (DCU)</strong>, Dublin, Ireland.</p>
-<p>My academic journey has given me a strong foundation in quantitative methods, data-driven decision-making, and applied machine learning. I am particularly interested in how AI and ML can be deployed to address real business challenges — from customer retention strategy to natural language processing pipelines.</p>
-<p>I enjoy working with data end-to-end: gathering and cleaning raw datasets, building and evaluating predictive models, and communicating insights clearly to both technical and non-technical audiences.</p>
-<hr>
+</header>
+
+
+<div class="page-title">
+<p>I am an MSc Business Analytics student at Dublin City University with an interest in data analytics, machine learning, NLP, and business strategy.</p>
+</div>
+<div class="content-page">
+<div class="profile-panel">
+<p><img src="images/logo.png" class="img-fluid" alt="Sahil Bhattacharya logo"></p>
+<section id="sahil-ashish-bhattacharya" class="level3 profile-copy">
+<h3 class="anchored" data-anchor-id="sahil-ashish-bhattacharya">Sahil Ashish Bhattacharya</h3>
+<p>My academic work sits at the intersection of technical analysis and business decision-making. I enjoy working with data end-to-end: understanding the problem, preparing the dataset, building analytical models, and communicating insights clearly to technical and non-technical audiences.</p>
+<p>I am particularly interested in practical applications of AI and machine learning, especially where analytics can improve customer strategy, operational decisions, and digital products.</p>
 </section>
+</div>
 <section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p><strong>MSc Business Analytics</strong> Dublin City University (DCU) · Dublin, Ireland · 2024 – Present</p>
-<hr>
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<p><strong>MSc Business Analytics</strong><br>
+Dublin City University · Dublin, Ireland · 2024-Present</p>
 </section>
-<section id="technical-skills" class="level2">
-<h2 data-anchor-id="technical-skills">Technical Skills</h2>
-<ul>
-<li><strong>Programming:</strong> Python (pandas, scikit-learn, matplotlib, seaborn, transformers), SQL</li>
-<li><strong>Machine Learning:</strong> Classification, Regression, Clustering, Hyperparameter Tuning, Model Evaluation</li>
-<li><strong>NLP &amp; AI:</strong> BERT, Transformer Models, Text Classification, Generative AI</li>
-<li><strong>Data Analytics:</strong> Exploratory Data Analysis, Statistical Modelling, Data Visualisation</li>
-<li><strong>Tools:</strong> Jupyter Notebook, Google Colab, Git, GitHub, Quarto</li>
-<li><strong>Business:</strong> CRM Strategy, Customer Segmentation, Business Reporting</li>
-</ul>
-<hr>
-</section>
-<section id="interests" class="level2">
-<h2 data-anchor-id="interests">Interests</h2>
-<ul>
-<li>Machine Learning &amp; Artificial Intelligence</li>
-<li>Natural Language Processing</li>
-<li>Business Analytics &amp; Data-Driven Strategy</li>
-<li>Python Programming</li>
-<li>CRM &amp; Customer Retention Analytics</li>
-</ul>
-<hr>
+<section id="professional-interests" class="level2">
+<h2 class="anchored" data-anchor-id="professional-interests">Professional Interests</h2>
+<div class="details-list">
+<div class="detail-item">
+<p><strong>Applied Machine Learning</strong><br>
+Building and evaluating models that address real business questions.</p>
+</div>
+<div class="detail-item">
+<p><strong>Natural Language Processing</strong><br>
+Exploring transformer models, text classification, and generative AI workflows.</p>
+</div>
+<div class="detail-item">
+<p><strong>Customer Analytics</strong><br>
+Using behavioural data to understand segmentation, retention, and customer lifetime value.</p>
+</div>
+<div class="detail-item">
+<p><strong>Data Communication</strong><br>
+Turning technical findings into clear recommendations, visuals, and written insight.</p>
+</div>
+</div>
 </section>
 <section id="contact" class="level2">
-<h2 data-anchor-id="contact">Contact</h2>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td>📧 Email</td>
-<td><a href="mailto:saahil.bhatt30@gmail.com">saahil.bhatt30@gmail.com</a></td>
-</tr>
-<tr class="even">
-<td>💼 LinkedIn</td>
-<td><a href="https://www.linkedin.com/in/sahil-bhattacharya-257924228">linkedin.com/in/sahil-bhattacharya-257924228</a></td>
-</tr>
-<tr class="odd">
-<td>🐙 GitHub</td>
-<td><a href="https://github.com/saahi0206">github.com/saahi0206</a></td>
-</tr>
-<tr class="even">
-<td>📄 CV</td>
-<td><a href="cv/sahil-bhattacharya-cv.pdf">Download PDF</a></td>
-</tr>
-</tbody>
-</table>
-
-
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<div class="contact-methods compact">
+<p><a class="contact-row contact-email" href="mailto:saahil.bhatt30@gmail.com"> <span class="contact-label">Email</span> <span>saahil.bhatt30@gmail.com</span> </a></p>
+<div class="social-icon-row" aria-label="Social profile links">
+<p><a class="social-icon-link" href="https://www.linkedin.com/in/sahil-bhattacharya-257924228" target="_blank" rel="noopener" aria-label="LinkedIn profile"> <i class="bi bi-linkedin"></i> <span>LinkedIn</span> </a></p>
+<p><a class="social-icon-link" href="https://github.com/Saahil0206" target="_blank" rel="noopener" aria-label="GitHub profile"> <i class="bi bi-github"></i> <span>GitHub</span> </a></p>
+</div>
+<p><a class="button" href="cv/sahil-bhattacharya-cv.pdf" target="_blank">Download CV</a></p>
+</div>
 </section>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://www.linkedin.com/in/sahil-bhattacharya-257924228" class="about-link" rel="" target="_blank">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/saahi0206" class="about-link" rel="" target="_blank">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:saahil.bhatt30@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="/cv/sahil-bhattacharya-cv.pdf" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">📄 Download CV</span>
-  </a>
 </div>
-</div>
- <!-- /main -->
+
+
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const revealSelectors = [
+    ".hero",
+    ".section",
+    ".page-title",
+    ".content-page",
+    ".contact-wrap",
+    ".portfolio-card",
+    ".skill-card",
+    ".media-card",
+    ".blog-card",
+    ".info-card",
+    ".profile-panel",
+    ".quarto-grid-item"
+  ];
+
+  const revealItems = Array.from(document.querySelectorAll(revealSelectors.join(",")));
+
+  document.body.classList.add("portfolio-loaded");
+
+  if (motionQuery.matches || !("IntersectionObserver" in window)) {
+    revealItems.forEach((item) => item.classList.add("is-visible"));
+    return;
+  }
+
+  revealItems.forEach((item, index) => {
+    item.classList.add("reveal");
+    item.style.setProperty("--reveal-delay", `${Math.min(index % 6, 5) * 70}ms`);
+  });
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.16,
+    rootMargin: "0px 0px -8% 0px"
+  });
+
+  revealItems.forEach((item) => observer.observe(item));
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -816,15 +665,15 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Sahil Ashish Bhattacharya · MSc Business Analytics · Dublin City University</p>
+<p>© 2025 Sahil Ashish Bhattacharya</p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
-    </div>
+<p>MSc Business Analytics · Dublin City University</p>
+</div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/saahi0206" target="_blank">
+    <a class="nav-link" href="https://github.com/Saahil0206" target="_blank">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
@@ -834,9 +683,6 @@ ul.task-list li input[type="checkbox"] {
       <i class="bi bi-linkedin" role="img">
 </i> 
     </a>
-  </li>  
-    <li class="nav-item">
- Built with Quarto
   </li>  
 </ul>
     </div>

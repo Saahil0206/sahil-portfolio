@@ -1,71 +1,39 @@
 ---
-title: "Contact"
-subtitle: "Let's connect"
-format: html
-page-layout: full
+title: "Contact Details"
 ---
 
-<style>
-.contact-wrap {
-  max-width: 680px;
-  margin: 2rem auto;
-  font-size: 1.05rem;
-}
-.contact-links {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  margin: 1.5rem 0 2rem;
-}
-.contact-links a {
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-.contact-links a:hover { text-decoration: underline; }
+::: {.page-title}
+I am open to internships, graduate roles, research collaborations, and conversations about analytics, machine learning, and business strategy.
+:::
 
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1rem;
-  box-sizing: border-box;
-}
-.contact-form textarea { height: 140px; resize: vertical; }
-.contact-form button {
-  background: #1a3a5c;
-  color: white;
-  padding: 0.7rem 2rem;
-  border: none;
-  border-radius: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-}
-.contact-form button:hover { background: #22527d; }
-</style>
-
-<div class="contact-wrap">
-
-I am open to internship opportunities, graduate roles, research collaborations, and general enquiries. Feel free to reach out through any of the channels below.
-
----
-
-<div class="contact-links">
-<a href="mailto:saahil.bhatt30@gmail.com">📧 saahil.bhatt30@gmail.com</a>
-<a href="https://www.linkedin.com/in/sahil-bhattacharya-257924228" target="_blank">💼 linkedin.com/in/sahil-bhattacharya-257924228</a>
-<a href="https://github.com/saahi0206" target="_blank">🐙 github.com/saahi0206</a>
+::: {.contact-wrap}
+<div class="contact-methods">
+<div class="contact-row">
+<span class="contact-label">Location</span>
+<span>Dublin, Ireland</span>
 </div>
 
----
+<a class="contact-row contact-email" href="mailto:saahil.bhatt30@gmail.com">
+<span class="contact-label">Email</span>
+<span>saahil.bhatt30@gmail.com</span>
+</a>
+
+<div class="social-icon-row" aria-label="Social profile links">
+<a class="social-icon-link" href="https://www.linkedin.com/in/sahil-bhattacharya-257924228" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+<i class="bi bi-linkedin"></i>
+<span>LinkedIn</span>
+</a>
+
+<a class="social-icon-link" href="https://github.com/Saahil0206" target="_blank" rel="noopener" aria-label="GitHub profile">
+<i class="bi bi-github"></i>
+<span>GitHub</span>
+</a>
+</div>
+</div>
 
 ## Send a Message
 
-<div class="contact-form">
+::: {.contact-form}
 <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
   <label for="name">Your name</label>
   <input type="text" id="name" name="name" placeholder="Jane Smith" required>
@@ -78,8 +46,7 @@ I am open to internship opportunities, graduate roles, research collaborations, 
 
   <button type="submit">Send Message</button>
 </form>
-</div>
+:::
 
-> **One step needed:** Sign up free at [formspree.io](https://formspree.io), create a form, and replace `YOUR_FORMSPREE_ID` in `contact.qmd` with your form ID. The form will then deliver messages directly to your email.
-
-</div>
+Replace `YOUR_FORMSPREE_ID` with your Formspree form ID when you are ready to receive messages.
+:::

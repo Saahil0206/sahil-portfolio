@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Comparing transformer-based classification (BERT) with generative AI approaches for NLP text analysis tasks in a Jupyter notebook environment.">
 
-<title>BERT vs Generative AI for Text Classification – Sahil Bhattacharya</title>
+<title>BERT vs Generative AI – Sahil Bhattacharya</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -41,14 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-5685cd926c25366c96d9f1407e584118.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3667bbe32c8f7c6fa279a15aee57bd48.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,182 +73,15 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.scss">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo.png" alt="Sahil Bhattacharya logo" class="navbar-logo light-content">
-    <img src="../images/logo.png" alt="Sahil Bhattacharya logo" class="navbar-logo dark-content">
-    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Sahil Bhattacharya</span>
     </a>
@@ -270,30 +98,37 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../projects/index.html"> 
-<span class="menu-text">Projects</span></a>
+<span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../reflection.html"> 
-<span class="menu-text">Reflection</span></a>
+    <a class="nav-link" href="../skills.html"> 
+<span class="menu-text">Skills</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../media.html"> 
+<span class="menu-text">Media</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blogs.html"> 
+<span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../contact.html"> 
-<span class="menu-text">Contact</span></a>
+<span class="menu-text">Contact Details</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../cv/sahil-bhattacharya-cv.pdf" target="_blank"> 
-<span class="menu-text">📄 CV</span></a>
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -306,17 +141,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">BERT vs Generative AI for Text Classification</h1>
+<h1 class="title">BERT vs Generative AI</h1>
+<p class="subtitle lead">A business-focused comparison of transformer fine-tuning and zero-shot LLM classification for sentiment analysis.</p>
 </div>
 
-<div>
-  <div class="description">
-    Comparing transformer-based classification (BERT) with generative AI approaches for NLP text analysis tasks in a Jupyter notebook environment.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -331,133 +161,141 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-overview" class="level2">
-<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
-<p>This project was completed as part of my MSc in Business Analytics at Dublin City University. The assessment involved working in a <strong>Jupyter notebook</strong> environment to implement and evaluate two distinct approaches to text classification: a traditional <strong>BERT-based transformer model</strong> and a <strong>Generative AI approach</strong>, comparing their performance, workflow characteristics, and practical trade-offs.</p>
-<hr>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Sentiment analysis is one of the most practical NLP tasks in business because it helps organisations turn unstructured customer feedback into usable signals. In this project, I compared two different approaches to binary sentiment classification: a fine-tuned BERT model and a zero-shot generative AI workflow using Llama 3. The goal was not just to compare model scores, but to evaluate which approach made more sense for a realistic business use case.</p>
+<p>I framed the project around a streaming-platform scenario where customer reviews could be used for two purposes: identifying strongly negative feedback for service escalation and supporting content curation decisions. This made the work more than a technical model comparison. It became an exercise in choosing the right AI approach under business constraints.</p>
 </section>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>Text classification is a foundational NLP task with wide business applications — from sentiment analysis of customer feedback to automated document routing, spam filtering, and topic categorisation. Two major paradigms have emerged for tackling these tasks:</p>
-<ol type="1">
-<li><p><strong>BERT-style discriminative models</strong> — fine-tuned transformer encoders that learn to classify input text directly into predefined categories. Well-suited to structured, supervised classification with labelled training data.</p></li>
-<li><p><strong>Generative AI approaches</strong> — large language models prompted to perform classification through instruction following, few-shot prompting, or zero-shot reasoning. Require no fine-tuning but rely on prompt design and model capability.</p></li>
-</ol>
-<p>Comparing these approaches — not just on accuracy, but on interpretability, resource requirements, workflow design, and business fit — was the core analytical challenge of this project.</p>
-<hr>
+<section id="problem-context" class="level2">
+<h2 class="anchored" data-anchor-id="problem-context">Problem / Context</h2>
+<p>Streaming platforms receive large volumes of user reviews, and manually reading them is not scalable. An automated sentiment pipeline can help surface dissatisfied customers earlier and give decision-makers a more systematic view of audience response. In practice, that could support customer service teams, recommendation workflows, and catalogue management.</p>
+<p>The key question behind this project was simple: should a business use a traditional fine-tuned NLP model or a large generative model for this kind of classification task? That decision affects cost, speed, data requirements, explainability, and deployment complexity.</p>
 </section>
-<section id="methodology" class="level2">
-<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
-<section id="bert-based-classification" class="level3">
-<h3 class="anchored" data-anchor-id="bert-based-classification">BERT-Based Classification</h3>
-<p>The BERT pipeline involved:</p>
+<section id="approach-methodology" class="level2">
+<h2 class="anchored" data-anchor-id="approach-methodology">Approach / Methodology</h2>
+<p>To explore this, I used the Rotten Tomatoes dataset for binary sentiment classification. I fine-tuned <code>bert-base-uncased</code> using the Hugging Face Trainer pipeline and compared it against Llama 3 running locally through Ollama in a zero-shot setting.</p>
+<p>The BERT workflow required labelled data, tokenisation, training, and evaluation. The Llama 3 workflow relied on prompt design and post-processing rather than task-specific training. I evaluated both models using accuracy, precision, recall, and F1-score, while also considering practical trade-offs such as inference cost, scalability, flexibility, and privacy implications from local deployment.</p>
+</section>
+<section id="what-i-did" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-did">What I did</h2>
 <ul>
-<li><strong>Tokenisation</strong> using the Hugging Face <code>transformers</code> library (<code>bert-base-uncased</code>)</li>
-<li><strong>Fine-tuning</strong> on a labelled text dataset with a classification head</li>
-<li><strong>Evaluation</strong> using accuracy, F1 score, and confusion matrix analysis</li>
-<li><strong>Training</strong> via Google Colab with GPU runtime to manage compute requirements</li>
+<li>Built a fine-tuning pipeline for BERT using Hugging Face and <code>bert-base-uncased</code>.</li>
+<li>Designed a zero-shot prompting workflow for Llama 3 running locally through Ollama.</li>
+<li>Evaluated both models using accuracy, precision, recall, and F1-score.</li>
+<li>Framed the comparison around a realistic streaming-platform decision-support use case.</li>
+<li>Reflected on ethical AI issues such as transparency, fairness, privacy, and deployment governance.</li>
 </ul>
 </section>
-<section id="generative-ai-approach" class="level3">
-<h3 class="anchored" data-anchor-id="generative-ai-approach">Generative AI Approach</h3>
-<p>The generative AI pipeline involved:</p>
-<ul>
-<li><strong>Zero-shot and few-shot prompting</strong> to elicit classifications from a large language model</li>
-<li><strong>Prompt engineering</strong> to structure inputs consistently and extract structured label outputs</li>
-<li><strong>Evaluation</strong> on the same held-out test set for direct comparison with BERT</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="key-findings" class="level2">
-<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
+<section id="results-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="results-outcomes">Results / Outcomes</h2>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 35%">
-<col style="width: 19%">
-<col style="width: 45%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Dimension</th>
-<th>BERT</th>
-<th>Generative AI</th>
+<th>Model</th>
+<th style="text-align: right;">Accuracy</th>
+<th style="text-align: right;">Precision</th>
+<th style="text-align: right;">Recall</th>
+<th style="text-align: right;">F1</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Accuracy (test set)</td>
-<td>Strong on in-distribution data</td>
-<td>Competitive on ambiguous cases</td>
+<td>BERT</td>
+<td style="text-align: right;">0.830</td>
+<td style="text-align: right;">0.811</td>
+<td style="text-align: right;">0.835</td>
+<td style="text-align: right;">0.823</td>
 </tr>
 <tr class="even">
-<td>Training required</td>
-<td>Yes — labelled data needed</td>
-<td>No — zero-shot capable</td>
-</tr>
-<tr class="odd">
-<td>Interpretability</td>
-<td>Moderate (attention weights)</td>
-<td>Low (black-box prompting)</td>
-</tr>
-<tr class="even">
-<td>Latency</td>
-<td>Fast at inference</td>
-<td>Slower per call</td>
-</tr>
-<tr class="odd">
-<td>Workflow complexity</td>
-<td>Higher (fine-tuning pipeline)</td>
-<td>Lower (prompt-based)</td>
-</tr>
-<tr class="even">
-<td>Best fit</td>
-<td>High-volume, structured tasks</td>
-<td>Exploratory or low-resource settings</td>
+<td>Llama 3</td>
+<td style="text-align: right;">0.930</td>
+<td style="text-align: right;">0.934</td>
+<td style="text-align: right;">0.914</td>
+<td style="text-align: right;">0.924</td>
 </tr>
 </tbody>
 </table>
-<p>The comparison revealed that <strong>model choice is not just an accuracy decision</strong> — it is a workflow design decision that depends on the volume of labelled data available, the required inference speed, the interpretability demands of the use case, and the cost of model deployment.</p>
-<hr>
+<p>Llama 3 outperformed BERT in this comparison, but the result should be interpreted carefully. BERT was evaluated on 500 examples, while Llama 3 was evaluated on 200 examples due to runtime constraints. The outcome suggests that zero-shot generative AI can perform strongly on practical classification tasks, especially when labelled data is limited, but it does not automatically make it the better production choice.</p>
 </section>
-<section id="reflection" class="level2">
-<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
-<p>This project had a significant impact on how I think about model selection in applied NLP.</p>
-<p>Going into it, I expected the comparison to be straightforward: BERT would win on accuracy for a structured classification task, and generative AI would be less precise but more flexible. What I found was more nuanced. Generative AI approaches performed surprisingly well on ambiguous or edge-case examples where context and semantic understanding mattered more than pattern matching on labelled training examples. BERT, by contrast, was more consistent and reliable on clear, in-distribution cases where sufficient labelled data had been provided.</p>
-<p>More importantly, I came to understand that <strong>the framing of “which model is better” is often the wrong question</strong>. The better question is: <em>better for what, in what context, with what constraints?</em> A business deploying a customer service routing tool at scale needs speed, consistency, and low operational cost — BERT fine-tuned on their specific categories is likely the right tool. An analyst quickly exploring the themes in a new corpus of documents, without labelled data, may get more value from a generative AI approach in hours rather than weeks.</p>
-<p>Working inside a Jupyter notebook also reinforced the importance of clear, reproducible experimental structure. Tracking experiments, documenting preprocessing decisions, and presenting evaluation results in a readable format are skills I actively practised and improved through this project.</p>
-<p>The project deepened my interest in <strong>NLP and applied machine learning</strong> considerably. It also gave me a much more grounded understanding of the practical engineering trade-offs involved in deploying language models — something that is increasingly relevant for anyone working in business analytics as AI tools become standard components of the analytics stack.</p>
-<hr>
+<section id="why-it-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters">Why it matters</h2>
+<p>This project matters because many organisations are now deciding whether to use task-specific models or general-purpose LLMs for applied NLP workflows. The answer is rarely just “use the model with the best score.” A business also needs to consider labelled data availability, cost, latency, reproducibility, governance, and how the model will be used by real teams.</p>
 </section>
-<section id="tools-methods" class="level2">
-<h2 class="anchored" data-anchor-id="tools-methods">Tools &amp; Methods</h2>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I learned</h2>
+<p>This project changed the way I think about model selection. I went in expecting the fine-tuned classifier to win, but the generative model delivered stronger results in a low-data setting. That reinforced an important lesson: in applied analytics, the best model is the one that fits the business context, data availability, and operational constraints.</p>
+<p>It also showed me that AI project evaluation should go beyond benchmark scores. Cost, reproducibility, interpretability, latency, and governance all matter when a model moves from notebook to business workflow.</p>
+</section>
+<section id="tools-skills" class="level2">
+<h2 class="anchored" data-anchor-id="tools-skills">Tools / Skills</h2>
 <ul>
-<li>Python (transformers, torch, scikit-learn, pandas, numpy)</li>
-<li>Hugging Face <code>bert-base-uncased</code></li>
-<li>Jupyter Notebook / Google Colab</li>
-<li>Zero-shot and few-shot prompting</li>
-<li>F1 score, accuracy, confusion matrix evaluation</li>
+<li>Python</li>
+<li>Hugging Face Transformers</li>
+<li>BERT fine-tuning</li>
+<li>Llama 3 via Ollama</li>
+<li>Prompt engineering</li>
+<li>Model evaluation</li>
+<li>NLP</li>
+<li>Responsible AI</li>
 </ul>
+</section>
+<section id="takeaway" class="level2">
+<h2 class="anchored" data-anchor-id="takeaway">Takeaway</h2>
+<p>This project helped me connect technical NLP modelling with real business decision-making by comparing not just model performance, but also the practical trade-offs involved in deploying AI responsibly.</p>
 
 
 </section>
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const revealSelectors = [
+    ".hero",
+    ".section",
+    ".page-title",
+    ".content-page",
+    ".contact-wrap",
+    ".portfolio-card",
+    ".skill-card",
+    ".media-card",
+    ".blog-card",
+    ".info-card",
+    ".profile-panel",
+    ".quarto-grid-item"
+  ];
+
+  const revealItems = Array.from(document.querySelectorAll(revealSelectors.join(",")));
+
+  document.body.classList.add("portfolio-loaded");
+
+  if (motionQuery.matches || !("IntersectionObserver" in window)) {
+    revealItems.forEach((item) => item.classList.add("is-visible"));
+    return;
+  }
+
+  revealItems.forEach((item, index) => {
+    item.classList.add("reveal");
+    item.style.setProperty("--reveal-delay", `${Math.min(index % 6, 5) * 70}ms`);
+  });
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.16,
+    rootMargin: "0px 0px -8% 0px"
+  });
+
+  revealItems.forEach((item) => observer.observe(item));
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -860,15 +698,15 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Sahil Ashish Bhattacharya · MSc Business Analytics · Dublin City University</p>
+<p>© 2025 Sahil Ashish Bhattacharya</p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
-    </div>
+<p>MSc Business Analytics · Dublin City University</p>
+</div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/saahi0206" target="_blank">
+    <a class="nav-link" href="https://github.com/Saahil0206" target="_blank">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
@@ -878,9 +716,6 @@ ul.task-list li input[type="checkbox"] {
       <i class="bi bi-linkedin" role="img">
 </i> 
     </a>
-  </li>  
-    <li class="nav-item">
- Built with Quarto
   </li>  
 </ul>
     </div>

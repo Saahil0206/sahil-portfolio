@@ -1,77 +1,67 @@
 ---
-title: "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland"
-description: "Analysing fan cohort behaviour and ticket sales patterns to inform CRM and customer retention strategy for the FAI at Aviva Stadium."
-image: ../images/project1.png
+title: "The Fan Growth Engine"
+subtitle: "A data-driven CRM strategy for improving fan retention, lifecycle engagement, and long-term supporter value."
+image: ../images/project-fai.jpg
 format: html
 page-layout: article
 ---
 
-## Project Overview
+## Overview
 
-This project was completed as part of my MSc in Business Analytics at Dublin City University. Working within a team, we tackled a real-world CRM challenge facing the **Football Association of Ireland (FAI)**: how to build genuine, long-term fan loyalty in a stadium environment where sell-out crowds can mask underlying weaknesses in independent fan retention.
+The Fan Growth Engine was a strategy and analytics project focused on a major commercial question in sport: how do you turn one-off attendance into long-term fan relationships? The project examined the Football Association of Ireland’s fan development challenge and identified a structural retention problem hidden beneath strong public interest and major attendance moments.
 
-**My Role:** Data Sourcing & Collection Lead
+Rather than treating fan growth as a simple marketing issue, the project approached it as a CRM and lifecycle design problem. The central argument was that the FAI already had interest, attention, and audience momentum, but lacked the data infrastructure and retention architecture required to convert those assets into sustained fan value.
 
----
+## Problem / Context
 
-## The Business Problem
+The project identified three connected weaknesses. First, attendance was heavily parent-driven at younger ages, meaning support was often transactional rather than independently loyal. Second, there was a sharp drop-off around age 18, when young supporters disappeared from organisational data systems. Third, grassroots and ticketing data were siloed, preventing effective segmentation and personalised communication.
 
-Aviva Stadium regularly achieves high attendance figures, which on the surface suggests strong demand. However, sell-out events can obscure an important risk: much of the attendance may be driven by transactional, occasion-based purchasing rather than deep, loyalty-driven fan relationships.
+Taken together, these issues meant the organisation was repeatedly reacquiring fans it should have been retaining. That is commercially inefficient and strategically risky, especially during a period when women’s football in Ireland had strong momentum and visibility.
 
-A key insight we identified early in the project was the **youth pipeline problem**. A significant proportion of younger attendees arrive not as independent fans, but through their parents or via youth football participation. This makes their ticket purchases conditional — tied to family decisions and youth team involvement rather than a personal, independent attachment to the national team. When those pathways fall away (e.g., a child ages out of youth football, a parent stops attending), there is no guarantee the attendee converts into a loyal adult fan.
+## Approach / Methodology
 
-This distinction — between **transactional attendance** and **relationship-driven loyalty** — became the central analytical lens for the project.
+The project used a sequence of frameworks to move from diagnosis to strategic design. These included PESTEL, SWOT, TOWS, Value Proposition Canvas, Customer Journey analysis, and Business Model Canvas. Rather than using frameworks as isolated academic labels, the project linked them together so that each one led to a clear strategic decision.
 
----
+The final strategy centred on lifecycle segmentation across four groups: Kids, Teens, Students, and Adults. The student segment was identified as the critical intervention point because it represented the highest churn risk and one of the strongest long-term value opportunities.
 
-## Data Sourcing & Collection
+## What I did
 
-My primary contribution was leading the **data sourcing and collection strategy** — thinking through what data would be needed to properly model fan retention, age-based cohort behaviour, and customer lifetime value in the FAI context.
+- Contributed to analysing fan-retention and CRM issues within the FAI context.
+- Worked with strategic frameworks including PESTEL, SWOT, TOWS, Customer Journey, and Business Model Canvas.
+- Helped shape a lifecycle segmentation strategy across Kids, Teens, Students, and Adults.
+- Explored the role of data architecture, CRM workflows, and retention triggers in fan development.
+- Connected strategic recommendations to commercial logic including CAC, LTV, and revenue growth thinking.
 
-Key data dimensions I identified as essential for a full CRM analysis:
+## Results / Outcomes
 
-- **Ticket purchase history** — repeat purchase rates, inter-match gap analysis, cohort retention curves
-- **Age at first purchase** — to model fan acquisition age and long-term retention probability
-- **Youth football registration linkage** — to identify attendees whose engagement is mediated by club or school participation
-- **Geographic data** — to understand regional fan density and distance-decay effects on repeat attendance
-- **Communication touchpoint data** — email open rates, campaign engagement, conversion to purchase
+Two standout initiatives helped make the strategy practical. The first was the Student ID Scheme and Lucky 8 Draw, which combined affordability, CRM data capture, and repeat-attendance incentives into one mechanism. The second was the Players Teach Programme, which linked community engagement with future conversion by turning grassroots contact into a consent-based fan pipeline.
 
-One of the core challenges I highlighted is that much of this data exists across siloed systems — ticketing platforms, grassroots registration databases, email marketing tools — and would require careful integration before any segmentation or predictive modelling could be applied.
+What made these initiatives strong was that they were not random campaign ideas. They were designed to solve a specific structural problem: the loss of fan relationships during life-stage transition.
 
----
+## Why it matters
 
-## Analytical Approach
+This project was important because it showed how business analytics can be applied beyond dashboards and predictive models. Here, the value came from diagnosing a systems problem, structuring evidence, segmenting users, and designing a commercially credible solution.
 
-Based on the data framework I outlined, the team developed a **cohort-based CRM strategy** structured around three fan segments:
+It also highlighted the power of CRM thinking. A supporter does not become loyal by accident; retention usually depends on timing, relevance, incentives, and the organisation’s ability to act on its own data.
 
-| Segment | Description | CRM Priority |
-|---------|-------------|-------------|
-| Youth-linked | Attending via parent/youth club | Convert to independent fans before pathway ends |
-| Lapsed adult | Previously regular, no recent purchase | Re-engagement campaigns, targeted offers |
-| Loyal adult | Consistent repeat purchasers | Retention, upsell, advocacy programmes |
+## What I learned
 
-A key recommendation was to begin tracking **age-based drop-off points** — the ages at which youth-linked attendees either convert to independent loyalty or disengage entirely — and to use this to trigger proactive CRM outreach at the right moment.
+This project strengthened my ability to connect analytics with strategy. I learned how segmentation, lifecycle logic, and commercial metrics such as customer acquisition cost and lifetime value can shape better decisions even when the output is not a machine-learning model.
 
----
+It also taught me that data problems are often organisational problems in disguise. If systems are fragmented and relationships are not tracked properly, growth becomes harder no matter how much public interest already exists.
 
-## Reflection
+## Tools / Skills
 
-This project fundamentally changed how I think about data collection decisions and their downstream consequences.
+- CRM strategy
+- Customer lifecycle design
+- Segmentation
+- Business model thinking
+- SWOT / TOWS
+- Value Proposition Canvas
+- Customer Journey Mapping
+- Commercial analytics
+- Sports business strategy
 
-Before this project, I thought of data sourcing as a preparatory step — something you do before the "real" analysis begins. Working on this project showed me that data collection *is* the analysis, in an important sense. The decision of what to collect, and what not to collect, directly shapes what questions you can later answer. In the FAI context, a CRM team that only tracks whether tickets were sold — without tracking *who* bought them, *why*, and *how* they were connected to the game — is systematically blind to its most important retention risks.
+## Takeaway
 
-Understanding the youth cohort dynamic was particularly instructive. It illustrated how aggregate metrics (sell-out rate, total attendance) can be misleading if they are not disaggregated by behavioural segment. A stadium that is always full is not necessarily building a loyal fanbase — it may simply be drawing on a large pool of occasional or event-driven visitors who will not return consistently.
-
-This project also improved my thinking about stakeholder needs in analytics. The FAI's CRM challenge is not purely a data problem; it is a business strategy problem with a data component. Framing the analysis around the organisation's actual strategic objective — building independent, long-term fan loyalty — kept the work grounded and relevant, rather than technical for its own sake.
-
-I came away with a much stronger appreciation of how data collection strategy, business problem framing, and CRM design are inseparable in applied analytics work.
-
----
-
-## Tools & Methods
-
-- Python (pandas, matplotlib, seaborn)
-- Cohort analysis framework
-- Customer segmentation logic
-- CRM strategy mapping
-- Data architecture planning (ticketing, grassroots, comms systems)
+This project helped me show that I can apply analytical thinking not only to technical modelling, but also to strategic growth problems where data, customer behaviour, and commercial design are closely connected.

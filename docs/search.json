@@ -1,115 +1,178 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "Skills",
     "section": "",
-    "text": "My name is Sahil Ashish Bhattacharya. I am currently pursuing an MSc in Business Analytics at Dublin City University (DCU), Dublin, Ireland.\nMy academic journey has given me a strong foundation in quantitative methods, data-driven decision-making, and applied machine learning. I am particularly interested in how AI and ML can be deployed to address real business challenges — from customer retention strategy to natural language processing pipelines.\nI enjoy working with data end-to-end: gathering and cleaning raw datasets, building and evaluating predictive models, and communicating insights clearly to both technical and non-technical audiences."
+    "text": "Technical and analytical skills developed through MSc coursework, applied projects, and independent portfolio work.\n\n\n\n\nPython\nData cleaning, analysis, visualisation, model building, and notebook-based experimentation using pandas, scikit-learn, matplotlib, seaborn, and transformers.\n\n\nSQL\nQuerying, joining, filtering, and structuring relational data for business analytics workflows.\n\n\nMachine Learning\nClassification, regression, clustering, model evaluation, confusion matrices, F1 score, and practical experimentation.\n\n\nNLP\nText classification, transformer models, BERT, prompt-based classification, and generative AI comparison.\n\n\nPower BI\nDashboard thinking, KPI communication, stakeholder reporting, and visual analytics.\n\n\nExcel\nData preparation, spreadsheet modelling, formulas, pivot tables, and business-facing analysis."
   },
   {
-    "objectID": "about.html#biography",
-    "href": "about.html#biography",
-    "title": "About Me",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "My name is Sahil Ashish Bhattacharya. I am currently pursuing an MSc in Business Analytics at Dublin City University (DCU), Dublin, Ireland.\nMy academic journey has given me a strong foundation in quantitative methods, data-driven decision-making, and applied machine learning. I am particularly interested in how AI and ML can be deployed to address real business challenges — from customer retention strategy to natural language processing pipelines.\nI enjoy working with data end-to-end: gathering and cleaning raw datasets, building and evaluating predictive models, and communicating insights clearly to both technical and non-technical audiences."
+    "text": "I am an MSc Business Analytics student at Dublin City University with an interest in data analytics, machine learning, NLP, and business strategy."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
-    "title": "About Me",
+    "title": "About",
     "section": "Education",
-    "text": "Education\nMSc Business Analytics Dublin City University (DCU) · Dublin, Ireland · 2024 – Present"
+    "text": "Education\nMSc Business Analytics\nDublin City University · Dublin, Ireland · 2024-Present"
   },
   {
-    "objectID": "about.html#technical-skills",
-    "href": "about.html#technical-skills",
-    "title": "About Me",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\nProgramming: Python (pandas, scikit-learn, matplotlib, seaborn, transformers), SQL\nMachine Learning: Classification, Regression, Clustering, Hyperparameter Tuning, Model Evaluation\nNLP & AI: BERT, Transformer Models, Text Classification, Generative AI\nData Analytics: Exploratory Data Analysis, Statistical Modelling, Data Visualisation\nTools: Jupyter Notebook, Google Colab, Git, GitHub, Quarto\nBusiness: CRM Strategy, Customer Segmentation, Business Reporting"
-  },
-  {
-    "objectID": "about.html#interests",
-    "href": "about.html#interests",
-    "title": "About Me",
-    "section": "Interests",
-    "text": "Interests\n\nMachine Learning & Artificial Intelligence\nNatural Language Processing\nBusiness Analytics & Data-Driven Strategy\nPython Programming\nCRM & Customer Retention Analytics"
+    "objectID": "about.html#professional-interests",
+    "href": "about.html#professional-interests",
+    "title": "About",
+    "section": "Professional Interests",
+    "text": "Professional Interests\n\n\nApplied Machine Learning\nBuilding and evaluating models that address real business questions.\n\n\nNatural Language Processing\nExploring transformer models, text classification, and generative AI workflows.\n\n\nCustomer Analytics\nUsing behavioural data to understand segmentation, retention, and customer lifetime value.\n\n\nData Communication\nTurning technical findings into clear recommendations, visuals, and written insight."
   },
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
-    "title": "About Me",
+    "title": "About",
     "section": "Contact",
-    "text": "Contact\n\n\n\n📧 Email\nsaahil.bhatt30@gmail.com\n\n\n💼 LinkedIn\nlinkedin.com/in/sahil-bhattacharya-257924228\n\n\n🐙 GitHub\ngithub.com/saahi0206\n\n\n📄 CV\nDownload PDF"
+    "text": "Contact\n\n Email saahil.bhatt30@gmail.com \n\n  LinkedIn \n  GitHub \n\nDownload CV"
   },
   {
-    "objectID": "projects/project-fai-crm.html",
-    "href": "projects/project-fai-crm.html",
-    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
     "section": "",
-    "text": "This project was completed as part of my MSc in Business Analytics at Dublin City University. Working within a team, we tackled a real-world CRM challenge facing the Football Association of Ireland (FAI): how to build genuine, long-term fan loyalty in a stadium environment where sell-out crowds can mask underlying weaknesses in independent fan retention.\nMy Role: Data Sourcing & Collection Lead"
+    "text": "Business Analytics · Data Science · E-Portfolio\n\n\n\n\nWelcome to my e-portfolio, where I showcase my data analytics work through applied projects, technical skills, reflective writing, and professional development as an MSc Business Analytics student.\n\n\nView Portfolio About Me"
   },
   {
-    "objectID": "projects/project-fai-crm.html#project-overview",
-    "href": "projects/project-fai-crm.html#project-overview",
-    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
+    "objectID": "index.html#portfolio",
+    "href": "index.html#portfolio",
+    "title": "Home",
+    "section": "Portfolio",
+    "text": "Portfolio\n\nSelected MSc work combining analytical thinking, business context, and clear communication.\n\n\n\n\n\nBERT vs Generative AI\nA business-focused comparison of transformer fine-tuning and zero-shot LLM workflows for sentiment analysis.\nRead Project\n\n\n\n\n\nTraffic & Air Pollution Prediction\nA smart-city forecasting project using IoT sensor and weather data to support proactive decision-making in Gorey.\nRead Project\n\n\n\n\n\nThe Fan Growth Engine\nA data-driven CRM strategy for improving fan retention and lifecycle engagement in Irish football.\nRead Project"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Home",
+    "section": "About Me",
+    "text": "About Me\n\n\n\nSahil Ashish Bhattacharya\nI am an MSc Business Analytics student at Dublin City University. My interests include machine learning, natural language processing, CRM analytics, and the communication of data-driven business recommendations.\nDownload CV"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Home",
+    "section": "Skills",
+    "text": "Skills\n\n\nPython\nData cleaning, analysis, visualisation, machine learning, and notebook-based experimentation.\n\n\nSQL\nQuerying, filtering, joining, and preparing relational data for analytics workflows.\n\n\nPower BI\nDashboard thinking, KPI communication, and stakeholder-focused reporting.\n\n\nR\nStatistical thinking, reproducible analysis, and data exploration.\n\n\nExcel\nSpreadsheet modelling, pivot tables, formulas, and structured business analysis.\n\n\nWeb Design\nQuarto websites, GitHub Pages, HTML/CSS editing, and portfolio presentation."
+  },
+  {
+    "objectID": "index.html#media",
+    "href": "index.html#media",
+    "title": "Home",
+    "section": "Media",
+    "text": "Media\n\nSpace for recorded explainers, presentation walkthroughs, and learning media connected to my analytics work.\n\n\n\nYouTube Presentation\n\nYouTube embed placeholder\n\nA short project presentation or portfolio walkthrough can be embedded here.\n\n\nSpotify Reflection\n\nSpotify embed placeholder\n\nAn audio reflection, discussion, or learning note can be embedded here."
+  },
+  {
+    "objectID": "index.html#blogs",
+    "href": "index.html#blogs",
+    "title": "Home",
+    "section": "Blogs",
+    "text": "Blogs\n\n\nChoosing Between BERT and Generative AI\nA short reflection on model selection, workflow constraints, and practical NLP classification.\nRead project\n\n\nData Collection Shapes Analysis\nWhat the FAI CRM project taught me about upstream data design and downstream business insight.\nRead project\n\n\nBuilding an E-Portfolio with Quarto\nHow this portfolio helped me practise structured content, version control, and web publishing.\nRead reflection"
+  },
+  {
+    "objectID": "index.html#contact-details",
+    "href": "index.html#contact-details",
+    "title": "Home",
+    "section": "Contact Details",
+    "text": "Contact Details\n\n\n\nLocation Dublin, Ireland\n\n Email saahil.bhatt30@gmail.com \n\n  LinkedIn \n  GitHub"
+  },
+  {
+    "objectID": "projects/project-gorey.html",
+    "href": "projects/project-gorey.html",
+    "title": "Traffic & Air Pollution Prediction",
     "section": "",
-    "text": "This project was completed as part of my MSc in Business Analytics at Dublin City University. Working within a team, we tackled a real-world CRM challenge facing the Football Association of Ireland (FAI): how to build genuine, long-term fan loyalty in a stadium environment where sell-out crowds can mask underlying weaknesses in independent fan retention.\nMy Role: Data Sourcing & Collection Lead"
+    "text": "This project focused on a real smart-city problem in Gorey, Co. Wexford: how to move from reactive monitoring to proactive forecasting. The work combined IoT sensor data and external weather information to build a framework for predicting traffic congestion and PM2.5 pollution risk. The broader aim was to support better planning, earlier interventions, and more informed decision-making for public stakeholders.\nWhat made the project especially interesting was that it linked two connected urban systems: traffic and air quality. Instead of treating them as isolated prediction tasks, the project used a two-stage framework that reflected the real relationship between vehicle activity, meteorological conditions, and pollutant concentration."
   },
   {
-    "objectID": "projects/project-fai-crm.html#the-business-problem",
-    "href": "projects/project-fai-crm.html#the-business-problem",
-    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
-    "section": "The Business Problem",
-    "text": "The Business Problem\nAviva Stadium regularly achieves high attendance figures, which on the surface suggests strong demand. However, sell-out events can obscure an important risk: much of the attendance may be driven by transactional, occasion-based purchasing rather than deep, loyalty-driven fan relationships.\nA key insight we identified early in the project was the youth pipeline problem. A significant proportion of younger attendees arrive not as independent fans, but through their parents or via youth football participation. This makes their ticket purchases conditional — tied to family decisions and youth team involvement rather than a personal, independent attachment to the national team. When those pathways fall away (e.g., a child ages out of youth football, a parent stops attending), there is no guarantee the attendee converts into a loyal adult fan.\nThis distinction — between transactional attendance and relationship-driven loyalty — became the central analytical lens for the project."
+    "objectID": "projects/project-gorey.html#overview",
+    "href": "projects/project-gorey.html#overview",
+    "title": "Traffic & Air Pollution Prediction",
+    "section": "",
+    "text": "This project focused on a real smart-city problem in Gorey, Co. Wexford: how to move from reactive monitoring to proactive forecasting. The work combined IoT sensor data and external weather information to build a framework for predicting traffic congestion and PM2.5 pollution risk. The broader aim was to support better planning, earlier interventions, and more informed decision-making for public stakeholders.\nWhat made the project especially interesting was that it linked two connected urban systems: traffic and air quality. Instead of treating them as isolated prediction tasks, the project used a two-stage framework that reflected the real relationship between vehicle activity, meteorological conditions, and pollutant concentration."
   },
   {
-    "objectID": "projects/project-fai-crm.html#data-sourcing-collection",
-    "href": "projects/project-fai-crm.html#data-sourcing-collection",
-    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
-    "section": "Data Sourcing & Collection",
-    "text": "Data Sourcing & Collection\nMy primary contribution was leading the data sourcing and collection strategy — thinking through what data would be needed to properly model fan retention, age-based cohort behaviour, and customer lifetime value in the FAI context.\nKey data dimensions I identified as essential for a full CRM analysis:\n\nTicket purchase history — repeat purchase rates, inter-match gap analysis, cohort retention curves\nAge at first purchase — to model fan acquisition age and long-term retention probability\nYouth football registration linkage — to identify attendees whose engagement is mediated by club or school participation\nGeographic data — to understand regional fan density and distance-decay effects on repeat attendance\nCommunication touchpoint data — email open rates, campaign engagement, conversion to purchase\n\nOne of the core challenges I highlighted is that much of this data exists across siloed systems — ticketing platforms, grassroots registration databases, email marketing tools — and would require careful integration before any segmentation or predictive modelling could be applied."
+    "objectID": "projects/project-gorey.html#problem-context",
+    "href": "projects/project-gorey.html#problem-context",
+    "title": "Traffic & Air Pollution Prediction",
+    "section": "Problem / Context",
+    "text": "Problem / Context\nMain Street in Gorey experiences congestion during peak hours, school drop-off periods, weekends, and tourist seasons. These traffic conditions contribute to air-pollution concerns, particularly around pollutants associated with road emissions. While sensor infrastructure already existed through the Box of Things deployment, the available data was largely descriptive rather than predictive.\nThat gap limited the practical value of the system. Without forecasting capability, local authorities are forced to respond after congestion or poor air quality has already occurred. The purpose of this project was to close that gap by designing a predictive framework that could support proactive traffic management and public-health awareness."
   },
   {
-    "objectID": "projects/project-fai-crm.html#analytical-approach",
-    "href": "projects/project-fai-crm.html#analytical-approach",
-    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
-    "section": "Analytical Approach",
-    "text": "Analytical Approach\nBased on the data framework I outlined, the team developed a cohort-based CRM strategy structured around three fan segments:\n\n\n\n\n\n\n\n\nSegment\nDescription\nCRM Priority\n\n\n\n\nYouth-linked\nAttending via parent/youth club\nConvert to independent fans before pathway ends\n\n\nLapsed adult\nPreviously regular, no recent purchase\nRe-engagement campaigns, targeted offers\n\n\nLoyal adult\nConsistent repeat purchasers\nRetention, upsell, advocacy programmes\n\n\n\nA key recommendation was to begin tracking age-based drop-off points — the ages at which youth-linked attendees either convert to independent loyalty or disengage entirely — and to use this to trigger proactive CRM outreach at the right moment."
+    "objectID": "projects/project-gorey.html#approach-methodology",
+    "href": "projects/project-gorey.html#approach-methodology",
+    "title": "Traffic & Air Pollution Prediction",
+    "section": "Approach / Methodology",
+    "text": "Approach / Methodology\nThe project combined Box of Things traffic, air-quality, and environmental sensor data with external weather data from Open-Meteo and Met Éireann. Because the datasets came in different frequencies, an important part of the work involved preprocessing, time alignment, hourly resampling, and careful handling of missing values and outliers.\nThe modelling design had two stages. Stage 1 focused on one-hour-ahead traffic forecasting. Stage 2 used predicted traffic, weather variables, and lagged pollutant values to model PM2.5 concentration and exceedance risk. This structure was important because it better reflected how decision support would work in practice."
   },
   {
-    "objectID": "projects/project-fai-crm.html#reflection",
-    "href": "projects/project-fai-crm.html#reflection",
-    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
-    "section": "Reflection",
-    "text": "Reflection\nThis project fundamentally changed how I think about data collection decisions and their downstream consequences.\nBefore this project, I thought of data sourcing as a preparatory step — something you do before the “real” analysis begins. Working on this project showed me that data collection is the analysis, in an important sense. The decision of what to collect, and what not to collect, directly shapes what questions you can later answer. In the FAI context, a CRM team that only tracks whether tickets were sold — without tracking who bought them, why, and how they were connected to the game — is systematically blind to its most important retention risks.\nUnderstanding the youth cohort dynamic was particularly instructive. It illustrated how aggregate metrics (sell-out rate, total attendance) can be misleading if they are not disaggregated by behavioural segment. A stadium that is always full is not necessarily building a loyal fanbase — it may simply be drawing on a large pool of occasional or event-driven visitors who will not return consistently.\nThis project also improved my thinking about stakeholder needs in analytics. The FAI’s CRM challenge is not purely a data problem; it is a business strategy problem with a data component. Framing the analysis around the organisation’s actual strategic objective — building independent, long-term fan loyalty — kept the work grounded and relevant, rather than technical for its own sake.\nI came away with a much stronger appreciation of how data collection strategy, business problem framing, and CRM design are inseparable in applied analytics work."
+    "objectID": "projects/project-gorey.html#what-i-did",
+    "href": "projects/project-gorey.html#what-i-did",
+    "title": "Traffic & Air Pollution Prediction",
+    "section": "What I did",
+    "text": "What I did\n\nWorked on a smart-city analytics framework combining IoT traffic, air-quality, and weather data.\nApplied preprocessing, resampling, chronological ordering, and data-quality checks to build a usable modelling dataset.\nUsed feature engineering to capture time effects, lag structures, rolling statistics, and meteorological influence.\nCompared modelling approaches including Random Forest, XGBoost, LSTM, and baseline methods.\nFollowed a chronological validation strategy to avoid leakage and better simulate real forecasting conditions."
   },
   {
-    "objectID": "projects/project-fai-crm.html#tools-methods",
-    "href": "projects/project-fai-crm.html#tools-methods",
-    "title": "Cohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\n\nPython (pandas, matplotlib, seaborn)\nCohort analysis framework\nCustomer segmentation logic\nCRM strategy mapping\nData architecture planning (ticketing, grassroots, comms systems)"
+    "objectID": "projects/project-gorey.html#results-outcomes",
+    "href": "projects/project-gorey.html#results-outcomes",
+    "title": "Traffic & Air Pollution Prediction",
+    "section": "Results / Outcomes",
+    "text": "Results / Outcomes\nThe project produced a structured forecasting framework rather than a standalone dashboard or deployed public system. Its main outcome was a reproducible modelling approach that connected traffic forecasting with PM2.5 prediction and exceedance-risk thinking.\n\n\n\n\n\n\n\n\nStage\nAim\nInputs\n\n\n\n\nStage 1\n1-hour-ahead traffic forecasting\nIoT traffic readings, time features, lagged values\n\n\nStage 2\nPM2.5 prediction and exceedance-risk modelling\nPredicted traffic, meteorology, lagged pollutant values"
+  },
+  {
+    "objectID": "projects/project-gorey.html#why-it-matters",
+    "href": "projects/project-gorey.html#why-it-matters",
+    "title": "Traffic & Air Pollution Prediction",
+    "section": "Why it matters",
+    "text": "Why it matters\nThis project sits at the intersection of analytics, sustainability, and public-sector impact. Better traffic forecasting can support congestion planning, while better pollution forecasting can help identify higher-risk periods and support early warnings for vulnerable populations. The value of the work is not only in predictive accuracy, but in making sensor infrastructure more useful for actual decision-making.\nIt also showed how business analytics skills can transfer into civic and environmental settings. The same core ideas — forecasting, feature engineering, stakeholder communication, and dashboard-oriented outputs — are highly relevant outside commercial business problems."
+  },
+  {
+    "objectID": "projects/project-gorey.html#what-i-learned",
+    "href": "projects/project-gorey.html#what-i-learned",
+    "title": "Traffic & Air Pollution Prediction",
+    "section": "What I learned",
+    "text": "What I learned\nThe biggest lesson from this project was the importance of methodology in time-series work. Good forecasting is not just about training a model; it depends on leakage-safe validation, sensible time alignment, and building features that reflect how the system behaves over time.\nI also learned that strong analytics projects need a communication layer. For a project like this, the final value depends on making technical results understandable for non-technical stakeholders such as councils, planners, and decision-makers."
+  },
+  {
+    "objectID": "projects/project-gorey.html#tools-skills",
+    "href": "projects/project-gorey.html#tools-skills",
+    "title": "Traffic & Air Pollution Prediction",
+    "section": "Tools / Skills",
+    "text": "Tools / Skills\n\nPython\nPandas\nTime-series forecasting\nFeature engineering\nRandom Forest\nXGBoost\nLSTM\nIoT analytics\nEnvironmental analytics\nPublic-sector analytics"
+  },
+  {
+    "objectID": "projects/project-gorey.html#takeaway",
+    "href": "projects/project-gorey.html#takeaway",
+    "title": "Traffic & Air Pollution Prediction",
+    "section": "Takeaway",
+    "text": "Takeaway\nThis project strengthened my ability to work on end-to-end predictive analytics problems where data engineering, modelling discipline, and stakeholder relevance all matter equally."
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "My MSc in Business Analytics at Dublin City University has involved applied projects across CRM strategy, machine learning, and natural language processing. Each project below reflects hands-on analytical work combining technical and business thinking.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBERT vs Generative AI for Text Classification\n\n\nComparing transformer-based classification (BERT) with generative AI approaches for NLP text analysis tasks in a Jupyter notebook environment.\n\n\n\n\n\n\n\n\n\n\n\n\nCohort-Driven Ticket Sales & CRM Strategy for the Football Association of Ireland\n\n\nAnalysing fan cohort behaviour and ticket sales patterns to inform CRM and customer retention strategy for the FAI at Aviva Stadium.\n\n\n\n\n\nNo matching items"
+    "text": "Selected project articles and case studies across NLP, smart-city forecasting, and CRM strategy. Each case study focuses on the business problem, analytical approach, and practical takeaway.\n\n\n\n\nBERT vs Generative AI\nA business-focused comparison of transformer fine-tuning and zero-shot LLM workflows for sentiment analysis, framed around customer service escalation and content curation.\nRead Project\n\n\nTraffic & Air Pollution Prediction\nA smart-city forecasting project using IoT sensor and weather data to support proactive traffic and public-health decision-making in Gorey.\nRead Project\n\n\nThe Fan Growth Engine\nA data-driven CRM strategy for improving fan retention, lifecycle engagement, and long-term supporter value in Irish football.\nRead Project"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "Contact",
+    "title": "Contact Details",
     "section": "",
-    "text": "I am open to internship opportunities, graduate roles, research collaborations, and general enquiries. Feel free to reach out through any of the channels below.\n\n\n📧 saahil.bhatt30@gmail.com 💼 linkedin.com/in/sahil-bhattacharya-257924228 🐙 github.com/saahi0206\n\n\n\n\n\n\nYour name \nYour email \nMessage\n\n\nSend Message\n\n\n\n\nOne step needed: Sign up free at formspree.io, create a form, and replace YOUR_FORMSPREE_ID in contact.qmd with your form ID. The form will then deliver messages directly to your email."
+    "text": "I am open to internships, graduate roles, research collaborations, and conversations about analytics, machine learning, and business strategy."
   },
   {
     "objectID": "contact.html#send-a-message",
     "href": "contact.html#send-a-message",
-    "title": "Contact",
-    "section": "",
-    "text": "Your name \nYour email \nMessage\n\n\nSend Message\n\n\n\n\nOne step needed: Sign up free at formspree.io, create a form, and replace YOUR_FORMSPREE_ID in contact.qmd with your form ID. The form will then deliver messages directly to your email."
+    "title": "Contact Details",
+    "section": "Send a Message",
+    "text": "Send a Message\n\n\nYour name \nYour email \nMessage\n\n\nSend Message\n\n\n\nReplace YOUR_FORMSPREE_ID with your Formspree form ID when you are ready to receive messages."
   },
   {
     "objectID": "reflection.html",
@@ -128,64 +191,155 @@
   {
     "objectID": "projects/project-bert-genai.html",
     "href": "projects/project-bert-genai.html",
-    "title": "BERT vs Generative AI for Text Classification",
+    "title": "BERT vs Generative AI",
     "section": "",
-    "text": "This project was completed as part of my MSc in Business Analytics at Dublin City University. The assessment involved working in a Jupyter notebook environment to implement and evaluate two distinct approaches to text classification: a traditional BERT-based transformer model and a Generative AI approach, comparing their performance, workflow characteristics, and practical trade-offs."
+    "text": "Sentiment analysis is one of the most practical NLP tasks in business because it helps organisations turn unstructured customer feedback into usable signals. In this project, I compared two different approaches to binary sentiment classification: a fine-tuned BERT model and a zero-shot generative AI workflow using Llama 3. The goal was not just to compare model scores, but to evaluate which approach made more sense for a realistic business use case.\nI framed the project around a streaming-platform scenario where customer reviews could be used for two purposes: identifying strongly negative feedback for service escalation and supporting content curation decisions. This made the work more than a technical model comparison. It became an exercise in choosing the right AI approach under business constraints."
   },
   {
-    "objectID": "projects/project-bert-genai.html#project-overview",
-    "href": "projects/project-bert-genai.html#project-overview",
-    "title": "BERT vs Generative AI for Text Classification",
+    "objectID": "projects/project-bert-genai.html#overview",
+    "href": "projects/project-bert-genai.html#overview",
+    "title": "BERT vs Generative AI",
     "section": "",
-    "text": "This project was completed as part of my MSc in Business Analytics at Dublin City University. The assessment involved working in a Jupyter notebook environment to implement and evaluate two distinct approaches to text classification: a traditional BERT-based transformer model and a Generative AI approach, comparing their performance, workflow characteristics, and practical trade-offs."
+    "text": "Sentiment analysis is one of the most practical NLP tasks in business because it helps organisations turn unstructured customer feedback into usable signals. In this project, I compared two different approaches to binary sentiment classification: a fine-tuned BERT model and a zero-shot generative AI workflow using Llama 3. The goal was not just to compare model scores, but to evaluate which approach made more sense for a realistic business use case.\nI framed the project around a streaming-platform scenario where customer reviews could be used for two purposes: identifying strongly negative feedback for service escalation and supporting content curation decisions. This made the work more than a technical model comparison. It became an exercise in choosing the right AI approach under business constraints."
   },
   {
-    "objectID": "projects/project-bert-genai.html#background",
-    "href": "projects/project-bert-genai.html#background",
-    "title": "BERT vs Generative AI for Text Classification",
-    "section": "Background",
-    "text": "Background\nText classification is a foundational NLP task with wide business applications — from sentiment analysis of customer feedback to automated document routing, spam filtering, and topic categorisation. Two major paradigms have emerged for tackling these tasks:\n\nBERT-style discriminative models — fine-tuned transformer encoders that learn to classify input text directly into predefined categories. Well-suited to structured, supervised classification with labelled training data.\nGenerative AI approaches — large language models prompted to perform classification through instruction following, few-shot prompting, or zero-shot reasoning. Require no fine-tuning but rely on prompt design and model capability.\n\nComparing these approaches — not just on accuracy, but on interpretability, resource requirements, workflow design, and business fit — was the core analytical challenge of this project."
+    "objectID": "projects/project-bert-genai.html#problem-context",
+    "href": "projects/project-bert-genai.html#problem-context",
+    "title": "BERT vs Generative AI",
+    "section": "Problem / Context",
+    "text": "Problem / Context\nStreaming platforms receive large volumes of user reviews, and manually reading them is not scalable. An automated sentiment pipeline can help surface dissatisfied customers earlier and give decision-makers a more systematic view of audience response. In practice, that could support customer service teams, recommendation workflows, and catalogue management.\nThe key question behind this project was simple: should a business use a traditional fine-tuned NLP model or a large generative model for this kind of classification task? That decision affects cost, speed, data requirements, explainability, and deployment complexity."
   },
   {
-    "objectID": "projects/project-bert-genai.html#methodology",
-    "href": "projects/project-bert-genai.html#methodology",
-    "title": "BERT vs Generative AI for Text Classification",
-    "section": "Methodology",
-    "text": "Methodology\n\nBERT-Based Classification\nThe BERT pipeline involved:\n\nTokenisation using the Hugging Face transformers library (bert-base-uncased)\nFine-tuning on a labelled text dataset with a classification head\nEvaluation using accuracy, F1 score, and confusion matrix analysis\nTraining via Google Colab with GPU runtime to manage compute requirements\n\n\n\nGenerative AI Approach\nThe generative AI pipeline involved:\n\nZero-shot and few-shot prompting to elicit classifications from a large language model\nPrompt engineering to structure inputs consistently and extract structured label outputs\nEvaluation on the same held-out test set for direct comparison with BERT"
+    "objectID": "projects/project-bert-genai.html#approach-methodology",
+    "href": "projects/project-bert-genai.html#approach-methodology",
+    "title": "BERT vs Generative AI",
+    "section": "Approach / Methodology",
+    "text": "Approach / Methodology\nTo explore this, I used the Rotten Tomatoes dataset for binary sentiment classification. I fine-tuned bert-base-uncased using the Hugging Face Trainer pipeline and compared it against Llama 3 running locally through Ollama in a zero-shot setting.\nThe BERT workflow required labelled data, tokenisation, training, and evaluation. The Llama 3 workflow relied on prompt design and post-processing rather than task-specific training. I evaluated both models using accuracy, precision, recall, and F1-score, while also considering practical trade-offs such as inference cost, scalability, flexibility, and privacy implications from local deployment."
   },
   {
-    "objectID": "projects/project-bert-genai.html#key-findings",
-    "href": "projects/project-bert-genai.html#key-findings",
-    "title": "BERT vs Generative AI for Text Classification",
-    "section": "Key Findings",
-    "text": "Key Findings\n\n\n\n\n\n\n\n\nDimension\nBERT\nGenerative AI\n\n\n\n\nAccuracy (test set)\nStrong on in-distribution data\nCompetitive on ambiguous cases\n\n\nTraining required\nYes — labelled data needed\nNo — zero-shot capable\n\n\nInterpretability\nModerate (attention weights)\nLow (black-box prompting)\n\n\nLatency\nFast at inference\nSlower per call\n\n\nWorkflow complexity\nHigher (fine-tuning pipeline)\nLower (prompt-based)\n\n\nBest fit\nHigh-volume, structured tasks\nExploratory or low-resource settings\n\n\n\nThe comparison revealed that model choice is not just an accuracy decision — it is a workflow design decision that depends on the volume of labelled data available, the required inference speed, the interpretability demands of the use case, and the cost of model deployment."
+    "objectID": "projects/project-bert-genai.html#what-i-did",
+    "href": "projects/project-bert-genai.html#what-i-did",
+    "title": "BERT vs Generative AI",
+    "section": "What I did",
+    "text": "What I did\n\nBuilt a fine-tuning pipeline for BERT using Hugging Face and bert-base-uncased.\nDesigned a zero-shot prompting workflow for Llama 3 running locally through Ollama.\nEvaluated both models using accuracy, precision, recall, and F1-score.\nFramed the comparison around a realistic streaming-platform decision-support use case.\nReflected on ethical AI issues such as transparency, fairness, privacy, and deployment governance."
   },
   {
-    "objectID": "projects/project-bert-genai.html#reflection",
-    "href": "projects/project-bert-genai.html#reflection",
-    "title": "BERT vs Generative AI for Text Classification",
-    "section": "Reflection",
-    "text": "Reflection\nThis project had a significant impact on how I think about model selection in applied NLP.\nGoing into it, I expected the comparison to be straightforward: BERT would win on accuracy for a structured classification task, and generative AI would be less precise but more flexible. What I found was more nuanced. Generative AI approaches performed surprisingly well on ambiguous or edge-case examples where context and semantic understanding mattered more than pattern matching on labelled training examples. BERT, by contrast, was more consistent and reliable on clear, in-distribution cases where sufficient labelled data had been provided.\nMore importantly, I came to understand that the framing of “which model is better” is often the wrong question. The better question is: better for what, in what context, with what constraints? A business deploying a customer service routing tool at scale needs speed, consistency, and low operational cost — BERT fine-tuned on their specific categories is likely the right tool. An analyst quickly exploring the themes in a new corpus of documents, without labelled data, may get more value from a generative AI approach in hours rather than weeks.\nWorking inside a Jupyter notebook also reinforced the importance of clear, reproducible experimental structure. Tracking experiments, documenting preprocessing decisions, and presenting evaluation results in a readable format are skills I actively practised and improved through this project.\nThe project deepened my interest in NLP and applied machine learning considerably. It also gave me a much more grounded understanding of the practical engineering trade-offs involved in deploying language models — something that is increasingly relevant for anyone working in business analytics as AI tools become standard components of the analytics stack."
+    "objectID": "projects/project-bert-genai.html#results-outcomes",
+    "href": "projects/project-bert-genai.html#results-outcomes",
+    "title": "BERT vs Generative AI",
+    "section": "Results / Outcomes",
+    "text": "Results / Outcomes\n\n\n\nModel\nAccuracy\nPrecision\nRecall\nF1\n\n\n\n\nBERT\n0.830\n0.811\n0.835\n0.823\n\n\nLlama 3\n0.930\n0.934\n0.914\n0.924\n\n\n\nLlama 3 outperformed BERT in this comparison, but the result should be interpreted carefully. BERT was evaluated on 500 examples, while Llama 3 was evaluated on 200 examples due to runtime constraints. The outcome suggests that zero-shot generative AI can perform strongly on practical classification tasks, especially when labelled data is limited, but it does not automatically make it the better production choice."
   },
   {
-    "objectID": "projects/project-bert-genai.html#tools-methods",
-    "href": "projects/project-bert-genai.html#tools-methods",
-    "title": "BERT vs Generative AI for Text Classification",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\n\nPython (transformers, torch, scikit-learn, pandas, numpy)\nHugging Face bert-base-uncased\nJupyter Notebook / Google Colab\nZero-shot and few-shot prompting\nF1 score, accuracy, confusion matrix evaluation"
+    "objectID": "projects/project-bert-genai.html#why-it-matters",
+    "href": "projects/project-bert-genai.html#why-it-matters",
+    "title": "BERT vs Generative AI",
+    "section": "Why it matters",
+    "text": "Why it matters\nThis project matters because many organisations are now deciding whether to use task-specific models or general-purpose LLMs for applied NLP workflows. The answer is rarely just “use the model with the best score.” A business also needs to consider labelled data availability, cost, latency, reproducibility, governance, and how the model will be used by real teams."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sahil Ashish Bhattacharya",
+    "objectID": "projects/project-bert-genai.html#what-i-learned",
+    "href": "projects/project-bert-genai.html#what-i-learned",
+    "title": "BERT vs Generative AI",
+    "section": "What I learned",
+    "text": "What I learned\nThis project changed the way I think about model selection. I went in expecting the fine-tuned classifier to win, but the generative model delivered stronger results in a low-data setting. That reinforced an important lesson: in applied analytics, the best model is the one that fits the business context, data availability, and operational constraints.\nIt also showed me that AI project evaluation should go beyond benchmark scores. Cost, reproducibility, interpretability, latency, and governance all matter when a model moves from notebook to business workflow."
+  },
+  {
+    "objectID": "projects/project-bert-genai.html#tools-skills",
+    "href": "projects/project-bert-genai.html#tools-skills",
+    "title": "BERT vs Generative AI",
+    "section": "Tools / Skills",
+    "text": "Tools / Skills\n\nPython\nHugging Face Transformers\nBERT fine-tuning\nLlama 3 via Ollama\nPrompt engineering\nModel evaluation\nNLP\nResponsible AI"
+  },
+  {
+    "objectID": "projects/project-bert-genai.html#takeaway",
+    "href": "projects/project-bert-genai.html#takeaway",
+    "title": "BERT vs Generative AI",
+    "section": "Takeaway",
+    "text": "Takeaway\nThis project helped me connect technical NLP modelling with real business decision-making by comparing not just model performance, but also the practical trade-offs involved in deploying AI responsibly."
+  },
+  {
+    "objectID": "projects/project-fai-crm.html",
+    "href": "projects/project-fai-crm.html",
+    "title": "The Fan Growth Engine",
     "section": "",
-    "text": "I’m Sahil Ashish Bhattacharya, an MSc Business Analytics student at Dublin City University (DCU), Dublin, Ireland.\nMy work sits at the intersection of data, technology, and business strategy. I am passionate about Machine Learning, Artificial Intelligence, Data Analytics, and Python — and how these tools can create measurable impact in real-world business contexts.\nThrough my MSc programme I have worked on applied projects spanning CRM strategy, NLP text classification, and transformer-based AI modelling. I am actively seeking internship and graduate opportunities where I can apply these skills.\nExplore my projects and reflections using the navigation above. 🚀"
+    "text": "The Fan Growth Engine was a strategy and analytics project focused on a major commercial question in sport: how do you turn one-off attendance into long-term fan relationships? The project examined the Football Association of Ireland’s fan development challenge and identified a structural retention problem hidden beneath strong public interest and major attendance moments.\nRather than treating fan growth as a simple marketing issue, the project approached it as a CRM and lifecycle design problem. The central argument was that the FAI already had interest, attention, and audience momentum, but lacked the data infrastructure and retention architecture required to convert those assets into sustained fan value."
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Sahil Ashish Bhattacharya",
+    "objectID": "projects/project-fai-crm.html#overview",
+    "href": "projects/project-fai-crm.html#overview",
+    "title": "The Fan Growth Engine",
     "section": "",
-    "text": "I’m Sahil Ashish Bhattacharya, an MSc Business Analytics student at Dublin City University (DCU), Dublin, Ireland.\nMy work sits at the intersection of data, technology, and business strategy. I am passionate about Machine Learning, Artificial Intelligence, Data Analytics, and Python — and how these tools can create measurable impact in real-world business contexts.\nThrough my MSc programme I have worked on applied projects spanning CRM strategy, NLP text classification, and transformer-based AI modelling. I am actively seeking internship and graduate opportunities where I can apply these skills.\nExplore my projects and reflections using the navigation above. 🚀"
+    "text": "The Fan Growth Engine was a strategy and analytics project focused on a major commercial question in sport: how do you turn one-off attendance into long-term fan relationships? The project examined the Football Association of Ireland’s fan development challenge and identified a structural retention problem hidden beneath strong public interest and major attendance moments.\nRather than treating fan growth as a simple marketing issue, the project approached it as a CRM and lifecycle design problem. The central argument was that the FAI already had interest, attention, and audience momentum, but lacked the data infrastructure and retention architecture required to convert those assets into sustained fan value."
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#problem-context",
+    "href": "projects/project-fai-crm.html#problem-context",
+    "title": "The Fan Growth Engine",
+    "section": "Problem / Context",
+    "text": "Problem / Context\nThe project identified three connected weaknesses. First, attendance was heavily parent-driven at younger ages, meaning support was often transactional rather than independently loyal. Second, there was a sharp drop-off around age 18, when young supporters disappeared from organisational data systems. Third, grassroots and ticketing data were siloed, preventing effective segmentation and personalised communication.\nTaken together, these issues meant the organisation was repeatedly reacquiring fans it should have been retaining. That is commercially inefficient and strategically risky, especially during a period when women’s football in Ireland had strong momentum and visibility."
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#approach-methodology",
+    "href": "projects/project-fai-crm.html#approach-methodology",
+    "title": "The Fan Growth Engine",
+    "section": "Approach / Methodology",
+    "text": "Approach / Methodology\nThe project used a sequence of frameworks to move from diagnosis to strategic design. These included PESTEL, SWOT, TOWS, Value Proposition Canvas, Customer Journey analysis, and Business Model Canvas. Rather than using frameworks as isolated academic labels, the project linked them together so that each one led to a clear strategic decision.\nThe final strategy centred on lifecycle segmentation across four groups: Kids, Teens, Students, and Adults. The student segment was identified as the critical intervention point because it represented the highest churn risk and one of the strongest long-term value opportunities."
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#what-i-did",
+    "href": "projects/project-fai-crm.html#what-i-did",
+    "title": "The Fan Growth Engine",
+    "section": "What I did",
+    "text": "What I did\n\nContributed to analysing fan-retention and CRM issues within the FAI context.\nWorked with strategic frameworks including PESTEL, SWOT, TOWS, Customer Journey, and Business Model Canvas.\nHelped shape a lifecycle segmentation strategy across Kids, Teens, Students, and Adults.\nExplored the role of data architecture, CRM workflows, and retention triggers in fan development.\nConnected strategic recommendations to commercial logic including CAC, LTV, and revenue growth thinking."
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#results-outcomes",
+    "href": "projects/project-fai-crm.html#results-outcomes",
+    "title": "The Fan Growth Engine",
+    "section": "Results / Outcomes",
+    "text": "Results / Outcomes\nTwo standout initiatives helped make the strategy practical. The first was the Student ID Scheme and Lucky 8 Draw, which combined affordability, CRM data capture, and repeat-attendance incentives into one mechanism. The second was the Players Teach Programme, which linked community engagement with future conversion by turning grassroots contact into a consent-based fan pipeline.\nWhat made these initiatives strong was that they were not random campaign ideas. They were designed to solve a specific structural problem: the loss of fan relationships during life-stage transition."
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#why-it-matters",
+    "href": "projects/project-fai-crm.html#why-it-matters",
+    "title": "The Fan Growth Engine",
+    "section": "Why it matters",
+    "text": "Why it matters\nThis project was important because it showed how business analytics can be applied beyond dashboards and predictive models. Here, the value came from diagnosing a systems problem, structuring evidence, segmenting users, and designing a commercially credible solution.\nIt also highlighted the power of CRM thinking. A supporter does not become loyal by accident; retention usually depends on timing, relevance, incentives, and the organisation’s ability to act on its own data."
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#what-i-learned",
+    "href": "projects/project-fai-crm.html#what-i-learned",
+    "title": "The Fan Growth Engine",
+    "section": "What I learned",
+    "text": "What I learned\nThis project strengthened my ability to connect analytics with strategy. I learned how segmentation, lifecycle logic, and commercial metrics such as customer acquisition cost and lifetime value can shape better decisions even when the output is not a machine-learning model.\nIt also taught me that data problems are often organisational problems in disguise. If systems are fragmented and relationships are not tracked properly, growth becomes harder no matter how much public interest already exists."
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#tools-skills",
+    "href": "projects/project-fai-crm.html#tools-skills",
+    "title": "The Fan Growth Engine",
+    "section": "Tools / Skills",
+    "text": "Tools / Skills\n\nCRM strategy\nCustomer lifecycle design\nSegmentation\nBusiness model thinking\nSWOT / TOWS\nValue Proposition Canvas\nCustomer Journey Mapping\nCommercial analytics\nSports business strategy"
+  },
+  {
+    "objectID": "projects/project-fai-crm.html#takeaway",
+    "href": "projects/project-fai-crm.html#takeaway",
+    "title": "The Fan Growth Engine",
+    "section": "Takeaway",
+    "text": "Takeaway\nThis project helped me show that I can apply analytical thinking not only to technical modelling, but also to strategic growth problems where data, customer behaviour, and commercial design are closely connected."
+  },
+  {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media",
+    "section": "",
+    "text": "Selected media spaces for presentations, explainers, and learning artefacts connected to analytics, AI, and business strategy.\n\n\n\n\nAnalytics Presentation\n\nPresentation embed placeholder\n\nShort project presentation or recorded walkthrough can be embedded here.\n\n\nData Science Audio\n\nPodcast embed placeholder\n\nA Spotify episode, reflection audio, or analytics discussion can be embedded here.\n\n\nNotebook Walkthrough\n\nVideo embed placeholder\n\nA walkthrough of a Jupyter notebook, model comparison, or project methodology can be embedded here."
+  },
+  {
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "Short reflective posts about analytics practice, model selection, business strategy, and portfolio development.\n\n\n\n\nChoosing Between BERT and Generative AI\nA reflection on why model choice depends on workflow, constraints, cost, interpretability, and the business context.\nRead more\n\n\nWhy Data Collection Shapes Analysis\nLessons from the FAI CRM project on how upstream data decisions shape downstream insight.\nRead more\n\n\nBuilding a Professional E-Portfolio\nA reflection on using Quarto, GitHub Pages, and structured writing to communicate analytical work.\nRead reflection"
   }
 ]

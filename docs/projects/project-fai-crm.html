@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Analysing fan cohort behaviour and ticket sales patterns to inform CRM and customer retention strategy for the FAI at Aviva Stadium.">
 
-<title>Cohort-Driven Ticket Sales &amp; CRM Strategy for the Football Association of Ireland – Sahil Bhattacharya</title>
+<title>The Fan Growth Engine – Sahil Bhattacharya</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -41,14 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-5685cd926c25366c96d9f1407e584118.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3667bbe32c8f7c6fa279a15aee57bd48.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,182 +73,15 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.scss">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo.png" alt="Sahil Bhattacharya logo" class="navbar-logo light-content">
-    <img src="../images/logo.png" alt="Sahil Bhattacharya logo" class="navbar-logo dark-content">
-    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Sahil Bhattacharya</span>
     </a>
@@ -270,30 +98,37 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../projects/index.html"> 
-<span class="menu-text">Projects</span></a>
+<span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../reflection.html"> 
-<span class="menu-text">Reflection</span></a>
+    <a class="nav-link" href="../skills.html"> 
+<span class="menu-text">Skills</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../media.html"> 
+<span class="menu-text">Media</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blogs.html"> 
+<span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../contact.html"> 
-<span class="menu-text">Contact</span></a>
+<span class="menu-text">Contact Details</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../cv/sahil-bhattacharya-cv.pdf" target="_blank"> 
-<span class="menu-text">📄 CV</span></a>
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -306,17 +141,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Cohort-Driven Ticket Sales &amp; CRM Strategy for the Football Association of Ireland</h1>
+<h1 class="title">The Fan Growth Engine</h1>
+<p class="subtitle lead">A data-driven CRM strategy for improving fan retention, lifecycle engagement, and long-term supporter value.</p>
 </div>
 
-<div>
-  <div class="description">
-    Analysing fan cohort behaviour and ticket sales patterns to inform CRM and customer retention strategy for the FAI at Aviva Stadium.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -331,108 +161,117 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-overview" class="level2">
-<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
-<p>This project was completed as part of my MSc in Business Analytics at Dublin City University. Working within a team, we tackled a real-world CRM challenge facing the <strong>Football Association of Ireland (FAI)</strong>: how to build genuine, long-term fan loyalty in a stadium environment where sell-out crowds can mask underlying weaknesses in independent fan retention.</p>
-<p><strong>My Role:</strong> Data Sourcing &amp; Collection Lead</p>
-<hr>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The Fan Growth Engine was a strategy and analytics project focused on a major commercial question in sport: how do you turn one-off attendance into long-term fan relationships? The project examined the Football Association of Ireland’s fan development challenge and identified a structural retention problem hidden beneath strong public interest and major attendance moments.</p>
+<p>Rather than treating fan growth as a simple marketing issue, the project approached it as a CRM and lifecycle design problem. The central argument was that the FAI already had interest, attention, and audience momentum, but lacked the data infrastructure and retention architecture required to convert those assets into sustained fan value.</p>
 </section>
-<section id="the-business-problem" class="level2">
-<h2 class="anchored" data-anchor-id="the-business-problem">The Business Problem</h2>
-<p>Aviva Stadium regularly achieves high attendance figures, which on the surface suggests strong demand. However, sell-out events can obscure an important risk: much of the attendance may be driven by transactional, occasion-based purchasing rather than deep, loyalty-driven fan relationships.</p>
-<p>A key insight we identified early in the project was the <strong>youth pipeline problem</strong>. A significant proportion of younger attendees arrive not as independent fans, but through their parents or via youth football participation. This makes their ticket purchases conditional — tied to family decisions and youth team involvement rather than a personal, independent attachment to the national team. When those pathways fall away (e.g., a child ages out of youth football, a parent stops attending), there is no guarantee the attendee converts into a loyal adult fan.</p>
-<p>This distinction — between <strong>transactional attendance</strong> and <strong>relationship-driven loyalty</strong> — became the central analytical lens for the project.</p>
-<hr>
+<section id="problem-context" class="level2">
+<h2 class="anchored" data-anchor-id="problem-context">Problem / Context</h2>
+<p>The project identified three connected weaknesses. First, attendance was heavily parent-driven at younger ages, meaning support was often transactional rather than independently loyal. Second, there was a sharp drop-off around age 18, when young supporters disappeared from organisational data systems. Third, grassroots and ticketing data were siloed, preventing effective segmentation and personalised communication.</p>
+<p>Taken together, these issues meant the organisation was repeatedly reacquiring fans it should have been retaining. That is commercially inefficient and strategically risky, especially during a period when women’s football in Ireland had strong momentum and visibility.</p>
 </section>
-<section id="data-sourcing-collection" class="level2">
-<h2 class="anchored" data-anchor-id="data-sourcing-collection">Data Sourcing &amp; Collection</h2>
-<p>My primary contribution was leading the <strong>data sourcing and collection strategy</strong> — thinking through what data would be needed to properly model fan retention, age-based cohort behaviour, and customer lifetime value in the FAI context.</p>
-<p>Key data dimensions I identified as essential for a full CRM analysis:</p>
+<section id="approach-methodology" class="level2">
+<h2 class="anchored" data-anchor-id="approach-methodology">Approach / Methodology</h2>
+<p>The project used a sequence of frameworks to move from diagnosis to strategic design. These included PESTEL, SWOT, TOWS, Value Proposition Canvas, Customer Journey analysis, and Business Model Canvas. Rather than using frameworks as isolated academic labels, the project linked them together so that each one led to a clear strategic decision.</p>
+<p>The final strategy centred on lifecycle segmentation across four groups: Kids, Teens, Students, and Adults. The student segment was identified as the critical intervention point because it represented the highest churn risk and one of the strongest long-term value opportunities.</p>
+</section>
+<section id="what-i-did" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-did">What I did</h2>
 <ul>
-<li><strong>Ticket purchase history</strong> — repeat purchase rates, inter-match gap analysis, cohort retention curves</li>
-<li><strong>Age at first purchase</strong> — to model fan acquisition age and long-term retention probability</li>
-<li><strong>Youth football registration linkage</strong> — to identify attendees whose engagement is mediated by club or school participation</li>
-<li><strong>Geographic data</strong> — to understand regional fan density and distance-decay effects on repeat attendance</li>
-<li><strong>Communication touchpoint data</strong> — email open rates, campaign engagement, conversion to purchase</li>
+<li>Contributed to analysing fan-retention and CRM issues within the FAI context.</li>
+<li>Worked with strategic frameworks including PESTEL, SWOT, TOWS, Customer Journey, and Business Model Canvas.</li>
+<li>Helped shape a lifecycle segmentation strategy across Kids, Teens, Students, and Adults.</li>
+<li>Explored the role of data architecture, CRM workflows, and retention triggers in fan development.</li>
+<li>Connected strategic recommendations to commercial logic including CAC, LTV, and revenue growth thinking.</li>
 </ul>
-<p>One of the core challenges I highlighted is that much of this data exists across siloed systems — ticketing platforms, grassroots registration databases, email marketing tools — and would require careful integration before any segmentation or predictive modelling could be applied.</p>
-<hr>
 </section>
-<section id="analytical-approach" class="level2">
-<h2 class="anchored" data-anchor-id="analytical-approach">Analytical Approach</h2>
-<p>Based on the data framework I outlined, the team developed a <strong>cohort-based CRM strategy</strong> structured around three fan segments:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 37%">
-<col style="width: 37%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Segment</th>
-<th>Description</th>
-<th>CRM Priority</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Youth-linked</td>
-<td>Attending via parent/youth club</td>
-<td>Convert to independent fans before pathway ends</td>
-</tr>
-<tr class="even">
-<td>Lapsed adult</td>
-<td>Previously regular, no recent purchase</td>
-<td>Re-engagement campaigns, targeted offers</td>
-</tr>
-<tr class="odd">
-<td>Loyal adult</td>
-<td>Consistent repeat purchasers</td>
-<td>Retention, upsell, advocacy programmes</td>
-</tr>
-</tbody>
-</table>
-<p>A key recommendation was to begin tracking <strong>age-based drop-off points</strong> — the ages at which youth-linked attendees either convert to independent loyalty or disengage entirely — and to use this to trigger proactive CRM outreach at the right moment.</p>
-<hr>
+<section id="results-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="results-outcomes">Results / Outcomes</h2>
+<p>Two standout initiatives helped make the strategy practical. The first was the Student ID Scheme and Lucky 8 Draw, which combined affordability, CRM data capture, and repeat-attendance incentives into one mechanism. The second was the Players Teach Programme, which linked community engagement with future conversion by turning grassroots contact into a consent-based fan pipeline.</p>
+<p>What made these initiatives strong was that they were not random campaign ideas. They were designed to solve a specific structural problem: the loss of fan relationships during life-stage transition.</p>
 </section>
-<section id="reflection" class="level2">
-<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
-<p>This project fundamentally changed how I think about data collection decisions and their downstream consequences.</p>
-<p>Before this project, I thought of data sourcing as a preparatory step — something you do before the “real” analysis begins. Working on this project showed me that data collection <em>is</em> the analysis, in an important sense. The decision of what to collect, and what not to collect, directly shapes what questions you can later answer. In the FAI context, a CRM team that only tracks whether tickets were sold — without tracking <em>who</em> bought them, <em>why</em>, and <em>how</em> they were connected to the game — is systematically blind to its most important retention risks.</p>
-<p>Understanding the youth cohort dynamic was particularly instructive. It illustrated how aggregate metrics (sell-out rate, total attendance) can be misleading if they are not disaggregated by behavioural segment. A stadium that is always full is not necessarily building a loyal fanbase — it may simply be drawing on a large pool of occasional or event-driven visitors who will not return consistently.</p>
-<p>This project also improved my thinking about stakeholder needs in analytics. The FAI’s CRM challenge is not purely a data problem; it is a business strategy problem with a data component. Framing the analysis around the organisation’s actual strategic objective — building independent, long-term fan loyalty — kept the work grounded and relevant, rather than technical for its own sake.</p>
-<p>I came away with a much stronger appreciation of how data collection strategy, business problem framing, and CRM design are inseparable in applied analytics work.</p>
-<hr>
+<section id="why-it-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters">Why it matters</h2>
+<p>This project was important because it showed how business analytics can be applied beyond dashboards and predictive models. Here, the value came from diagnosing a systems problem, structuring evidence, segmenting users, and designing a commercially credible solution.</p>
+<p>It also highlighted the power of CRM thinking. A supporter does not become loyal by accident; retention usually depends on timing, relevance, incentives, and the organisation’s ability to act on its own data.</p>
 </section>
-<section id="tools-methods" class="level2">
-<h2 class="anchored" data-anchor-id="tools-methods">Tools &amp; Methods</h2>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I learned</h2>
+<p>This project strengthened my ability to connect analytics with strategy. I learned how segmentation, lifecycle logic, and commercial metrics such as customer acquisition cost and lifetime value can shape better decisions even when the output is not a machine-learning model.</p>
+<p>It also taught me that data problems are often organisational problems in disguise. If systems are fragmented and relationships are not tracked properly, growth becomes harder no matter how much public interest already exists.</p>
+</section>
+<section id="tools-skills" class="level2">
+<h2 class="anchored" data-anchor-id="tools-skills">Tools / Skills</h2>
 <ul>
-<li>Python (pandas, matplotlib, seaborn)</li>
-<li>Cohort analysis framework</li>
-<li>Customer segmentation logic</li>
-<li>CRM strategy mapping</li>
-<li>Data architecture planning (ticketing, grassroots, comms systems)</li>
+<li>CRM strategy</li>
+<li>Customer lifecycle design</li>
+<li>Segmentation</li>
+<li>Business model thinking</li>
+<li>SWOT / TOWS</li>
+<li>Value Proposition Canvas</li>
+<li>Customer Journey Mapping</li>
+<li>Commercial analytics</li>
+<li>Sports business strategy</li>
 </ul>
+</section>
+<section id="takeaway" class="level2">
+<h2 class="anchored" data-anchor-id="takeaway">Takeaway</h2>
+<p>This project helped me show that I can apply analytical thinking not only to technical modelling, but also to strategic growth problems where data, customer behaviour, and commercial design are closely connected.</p>
 
 
 </section>
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const revealSelectors = [
+    ".hero",
+    ".section",
+    ".page-title",
+    ".content-page",
+    ".contact-wrap",
+    ".portfolio-card",
+    ".skill-card",
+    ".media-card",
+    ".blog-card",
+    ".info-card",
+    ".profile-panel",
+    ".quarto-grid-item"
+  ];
+
+  const revealItems = Array.from(document.querySelectorAll(revealSelectors.join(",")));
+
+  document.body.classList.add("portfolio-loaded");
+
+  if (motionQuery.matches || !("IntersectionObserver" in window)) {
+    revealItems.forEach((item) => item.classList.add("is-visible"));
+    return;
+  }
+
+  revealItems.forEach((item, index) => {
+    item.classList.add("reveal");
+    item.style.setProperty("--reveal-delay", `${Math.min(index % 6, 5) * 70}ms`);
+  });
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.16,
+    rootMargin: "0px 0px -8% 0px"
+  });
+
+  revealItems.forEach((item) => observer.observe(item));
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -835,15 +674,15 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Sahil Ashish Bhattacharya · MSc Business Analytics · Dublin City University</p>
+<p>© 2025 Sahil Ashish Bhattacharya</p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
-    </div>
+<p>MSc Business Analytics · Dublin City University</p>
+</div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/saahi0206" target="_blank">
+    <a class="nav-link" href="https://github.com/Saahil0206" target="_blank">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
@@ -853,9 +692,6 @@ ul.task-list li input[type="checkbox"] {
       <i class="bi bi-linkedin" role="img">
 </i> 
     </a>
-  </li>  
-    <li class="nav-item">
- Built with Quarto
   </li>  
 </ul>
     </div>

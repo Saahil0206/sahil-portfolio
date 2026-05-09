@@ -1,0 +1,71 @@
+---
+title: "Traffic & Air Pollution Prediction"
+subtitle: "A smart-city forecasting project using IoT and weather data to support proactive public-sector decision-making."
+image: ../images/project-gorey.jpg
+format: html
+page-layout: article
+---
+
+## Overview
+
+This project focused on a real smart-city problem in Gorey, Co. Wexford: how to move from reactive monitoring to proactive forecasting. The work combined IoT sensor data and external weather information to build a framework for predicting traffic congestion and PM2.5 pollution risk. The broader aim was to support better planning, earlier interventions, and more informed decision-making for public stakeholders.
+
+What made the project especially interesting was that it linked two connected urban systems: traffic and air quality. Instead of treating them as isolated prediction tasks, the project used a two-stage framework that reflected the real relationship between vehicle activity, meteorological conditions, and pollutant concentration.
+
+## Problem / Context
+
+Main Street in Gorey experiences congestion during peak hours, school drop-off periods, weekends, and tourist seasons. These traffic conditions contribute to air-pollution concerns, particularly around pollutants associated with road emissions. While sensor infrastructure already existed through the Box of Things deployment, the available data was largely descriptive rather than predictive.
+
+That gap limited the practical value of the system. Without forecasting capability, local authorities are forced to respond after congestion or poor air quality has already occurred. The purpose of this project was to close that gap by designing a predictive framework that could support proactive traffic management and public-health awareness.
+
+## Approach / Methodology
+
+The project combined Box of Things traffic, air-quality, and environmental sensor data with external weather data from Open-Meteo and Met Éireann. Because the datasets came in different frequencies, an important part of the work involved preprocessing, time alignment, hourly resampling, and careful handling of missing values and outliers.
+
+The modelling design had two stages. Stage 1 focused on one-hour-ahead traffic forecasting. Stage 2 used predicted traffic, weather variables, and lagged pollutant values to model PM2.5 concentration and exceedance risk. This structure was important because it better reflected how decision support would work in practice.
+
+## What I did
+
+- Worked on a smart-city analytics framework combining IoT traffic, air-quality, and weather data.
+- Applied preprocessing, resampling, chronological ordering, and data-quality checks to build a usable modelling dataset.
+- Used feature engineering to capture time effects, lag structures, rolling statistics, and meteorological influence.
+- Compared modelling approaches including Random Forest, XGBoost, LSTM, and baseline methods.
+- Followed a chronological validation strategy to avoid leakage and better simulate real forecasting conditions.
+
+## Results / Outcomes
+
+The project produced a structured forecasting framework rather than a standalone dashboard or deployed public system. Its main outcome was a reproducible modelling approach that connected traffic forecasting with PM2.5 prediction and exceedance-risk thinking.
+
+| Stage | Aim | Inputs |
+|---|---|---|
+| Stage 1 | 1-hour-ahead traffic forecasting | IoT traffic readings, time features, lagged values |
+| Stage 2 | PM2.5 prediction and exceedance-risk modelling | Predicted traffic, meteorology, lagged pollutant values |
+
+## Why it matters
+
+This project sits at the intersection of analytics, sustainability, and public-sector impact. Better traffic forecasting can support congestion planning, while better pollution forecasting can help identify higher-risk periods and support early warnings for vulnerable populations. The value of the work is not only in predictive accuracy, but in making sensor infrastructure more useful for actual decision-making.
+
+It also showed how business analytics skills can transfer into civic and environmental settings. The same core ideas — forecasting, feature engineering, stakeholder communication, and dashboard-oriented outputs — are highly relevant outside commercial business problems.
+
+## What I learned
+
+The biggest lesson from this project was the importance of methodology in time-series work. Good forecasting is not just about training a model; it depends on leakage-safe validation, sensible time alignment, and building features that reflect how the system behaves over time.
+
+I also learned that strong analytics projects need a communication layer. For a project like this, the final value depends on making technical results understandable for non-technical stakeholders such as councils, planners, and decision-makers.
+
+## Tools / Skills
+
+- Python
+- Pandas
+- Time-series forecasting
+- Feature engineering
+- Random Forest
+- XGBoost
+- LSTM
+- IoT analytics
+- Environmental analytics
+- Public-sector analytics
+
+## Takeaway
+
+This project strengthened my ability to work on end-to-end predictive analytics problems where data engineering, modelling discipline, and stakeholder relevance all matter equally.

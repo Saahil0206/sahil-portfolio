@@ -1,0 +1,41 @@
+---
+title: "Media"
+---
+
+::: {.page-title}
+Selected media spaces for presentations, explainers, and learning artefacts connected to analytics, AI, and business strategy.
+:::
+
+::: {.section}
+::: {.media-grid}
+::: {.media-card}
+### Analytics Presentation
+
+::: {.media-embed}
+Presentation embed placeholder
+:::
+
+Short project presentation or recorded walkthrough can be embedded here.
+:::
+
+::: {.media-card}
+### Data Science Audio
+
+::: {.media-embed}
+Podcast embed placeholder
+:::
+
+A Spotify episode, reflection audio, or analytics discussion can be embedded here.
+:::
+
+::: {.media-card}
+### Notebook Walkthrough
+
+::: {.media-embed}
+Video embed placeholder
+:::
+
+A walkthrough of a Jupyter notebook, model comparison, or project methodology can be embedded here.
+:::
+:::
+:::

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sahil Ashish Bhattacharya – Sahil Bhattacharya</title>
+<title>Home – Sahil Bhattacharya</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -38,15 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-5685cd926c25366c96d9f1407e584118.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3667bbe32c8f7c6fa279a15aee57bd48.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,182 +73,15 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.scss">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="Sahil Bhattacharya logo" class="navbar-logo light-content">
-    <img src="./images/logo.png" alt="Sahil Bhattacharya logo" class="navbar-logo dark-content">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Sahil Bhattacharya</span>
     </a>
@@ -268,30 +98,37 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects/index.html"> 
-<span class="menu-text">Projects</span></a>
+<span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./reflection.html"> 
-<span class="menu-text">Reflection</span></a>
+    <a class="nav-link" href="./skills.html"> 
+<span class="menu-text">Skills</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./media.html"> 
+<span class="menu-text">Media</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blogs.html"> 
+<span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+<span class="menu-text">Contact Details</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./cv/sahil-bhattacharya-cv.pdf" target="_blank"> 
-<span class="menu-text">📄 CV</span></a>
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -302,64 +139,235 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="images/logo.png" class="about-image
-  round " style="height: 16em; width: 16em;">
+<main class="content column-page" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sahil Ashish Bhattacharya</h1>
+<h1 class="title">Home</h1>
 </div>
+
+
+
 <div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/sahil-bhattacharya-257924228" class="about-link" rel="" target="_blank">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/saahi0206" class="about-link" rel="" target="_blank">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:saahil.bhatt30@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="/cv/sahil-bhattacharya-cv.pdf" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">📄 CV</span>
-  </a>
+
+
+<style>
+#title-block-header {
+  display: none;
+}
+</style>
+<div class="hero">
+<p class="hero-kicker">
+Business Analytics · Data Science · E-Portfolio
+</p>
+<section id="sahil-ashish-bhattacharya" class="level1">
+<h1>Sahil Ashish <span class="accent">Bhattacharya</span></h1>
+<p class="hero-lede">
+Welcome to my e-portfolio, where I showcase my data analytics work through applied projects, technical skills, reflective writing, and professional development as an MSc Business Analytics student.
+</p>
+<div class="hero-actions">
+<p><a href="projects/">View Portfolio</a> <a href="about.html" class="secondary">About Me</a></p>
 </div>
-  </div>
-  <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-
-<section id="welcome" class="level2">
-<h2 data-anchor-id="welcome">Welcome 👋</h2>
-<p>I’m <strong>Sahil Ashish Bhattacharya</strong>, an MSc Business Analytics student at <strong>Dublin City University (DCU)</strong>, Dublin, Ireland.</p>
-<p>My work sits at the intersection of data, technology, and business strategy. I am passionate about <strong>Machine Learning</strong>, <strong>Artificial Intelligence</strong>, <strong>Data Analytics</strong>, and <strong>Python</strong> — and how these tools can create measurable impact in real-world business contexts.</p>
-<p>Through my MSc programme I have worked on applied projects spanning CRM strategy, NLP text classification, and transformer-based AI modelling. I am actively seeking internship and graduate opportunities where I can apply these skills.</p>
-<p>Explore my projects and reflections using the navigation above. 🚀</p>
-
-
 </section>
-</main></div>
 </div>
- <!-- /main -->
+<section id="portfolio" class="level2">
+<h2 class="anchored" data-anchor-id="portfolio">Portfolio</h2>
+<p class="section-intro">
+Selected MSc work combining analytical thinking, business context, and clear communication.
+</p>
+<div class="portfolio-grid project-card-grid">
+<div class="portfolio-card">
+<p><img src="images/project-bert.jpg" class="img-fluid" alt="Abstract visual for NLP sentiment analysis using BERT and generative AI"></p>
+<section id="bert-vs-generative-ai" class="level3 portfolio-card-content">
+<h3 class="anchored" data-anchor-id="bert-vs-generative-ai">BERT vs Generative AI</h3>
+<p>A business-focused comparison of transformer fine-tuning and zero-shot LLM workflows for sentiment analysis.</p>
+<p><a href="projects/project-bert-genai.html" class="card-link">Read Project</a></p>
+</section>
+</div>
+<div class="portfolio-card">
+<p><img src="images/project-gorey.jpg" class="img-fluid" alt="Smart-city traffic and air pollution forecasting visual for Gorey"></p>
+<section id="traffic-air-pollution-prediction" class="level3 portfolio-card-content">
+<h3 class="anchored" data-anchor-id="traffic-air-pollution-prediction">Traffic &amp; Air Pollution Prediction</h3>
+<p>A smart-city forecasting project using IoT sensor and weather data to support proactive decision-making in Gorey.</p>
+<p><a href="projects/project-gorey.html" class="card-link">Read Project</a></p>
+</section>
+</div>
+<div class="portfolio-card">
+<p><img src="images/project-fai.jpg" class="img-fluid" alt="Football Association of Ireland CRM and fan lifecycle strategy visual"></p>
+<section id="the-fan-growth-engine" class="level3 portfolio-card-content">
+<h3 class="anchored" data-anchor-id="the-fan-growth-engine">The Fan Growth Engine</h3>
+<p>A data-driven CRM strategy for improving fan retention and lifecycle engagement in Irish football.</p>
+<p><a href="projects/project-fai-crm.html" class="card-link">Read Project</a></p>
+</section>
+</div>
+</div>
+</section>
+<section id="about-me" class="level2">
+<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
+<div class="profile-panel">
+<p><img src="images/logo.png" class="img-fluid" alt="Sahil Bhattacharya logo"></p>
+<section id="sahil-ashish-bhattacharya-1" class="level3 profile-copy">
+<h3 class="anchored" data-anchor-id="sahil-ashish-bhattacharya-1">Sahil Ashish Bhattacharya</h3>
+<p>I am an MSc Business Analytics student at Dublin City University. My interests include machine learning, natural language processing, CRM analytics, and the communication of data-driven business recommendations.</p>
+<p><a href="cv/sahil-bhattacharya-cv.pdf" class="button">Download CV</a></p>
+</section>
+</div>
+</section>
+<section id="skills" class="level2">
+<h2 class="anchored" data-anchor-id="skills">Skills</h2>
+<div class="card-grid">
+<section id="python" class="level3 skill-card">
+<h3 class="anchored" data-anchor-id="python">Python</h3>
+<p>Data cleaning, analysis, visualisation, machine learning, and notebook-based experimentation.</p>
+</section>
+<section id="sql" class="level3 skill-card">
+<h3 class="anchored" data-anchor-id="sql">SQL</h3>
+<p>Querying, filtering, joining, and preparing relational data for analytics workflows.</p>
+</section>
+<section id="power-bi" class="level3 skill-card">
+<h3 class="anchored" data-anchor-id="power-bi">Power BI</h3>
+<p>Dashboard thinking, KPI communication, and stakeholder-focused reporting.</p>
+</section>
+<section id="r" class="level3 skill-card">
+<h3 class="anchored" data-anchor-id="r">R</h3>
+<p>Statistical thinking, reproducible analysis, and data exploration.</p>
+</section>
+<section id="excel" class="level3 skill-card">
+<h3 class="anchored" data-anchor-id="excel">Excel</h3>
+<p>Spreadsheet modelling, pivot tables, formulas, and structured business analysis.</p>
+</section>
+<section id="web-design" class="level3 skill-card">
+<h3 class="anchored" data-anchor-id="web-design">Web Design</h3>
+<p>Quarto websites, GitHub Pages, HTML/CSS editing, and portfolio presentation.</p>
+</section>
+</div>
+</section>
+<section id="media" class="level2">
+<h2 class="anchored" data-anchor-id="media">Media</h2>
+<p class="section-intro">
+Space for recorded explainers, presentation walkthroughs, and learning media connected to my analytics work.
+</p>
+<div class="media-grid">
+<section id="youtube-presentation" class="level3 media-card">
+<h3 class="anchored" data-anchor-id="youtube-presentation">YouTube Presentation</h3>
+<div class="media-embed">
+<p>YouTube embed placeholder</p>
+</div>
+<p>A short project presentation or portfolio walkthrough can be embedded here.</p>
+</section>
+<section id="spotify-reflection" class="level3 media-card">
+<h3 class="anchored" data-anchor-id="spotify-reflection">Spotify Reflection</h3>
+<div class="media-embed">
+<p>Spotify embed placeholder</p>
+</div>
+<p>An audio reflection, discussion, or learning note can be embedded here.</p>
+</section>
+</div>
+</section>
+<section id="blogs" class="level2">
+<h2 class="anchored" data-anchor-id="blogs">Blogs</h2>
+<div class="blog-grid">
+<section id="choosing-between-bert-and-generative-ai" class="level3 blog-card">
+<h3 class="anchored" data-anchor-id="choosing-between-bert-and-generative-ai">Choosing Between BERT and Generative AI</h3>
+<p>A short reflection on model selection, workflow constraints, and practical NLP classification.</p>
+<p><a href="projects/project-bert-genai.html" class="card-link">Read project</a></p>
+</section>
+<section id="data-collection-shapes-analysis" class="level3 blog-card">
+<h3 class="anchored" data-anchor-id="data-collection-shapes-analysis">Data Collection Shapes Analysis</h3>
+<p>What the FAI CRM project taught me about upstream data design and downstream business insight.</p>
+<p><a href="projects/project-fai-crm.html" class="card-link">Read project</a></p>
+</section>
+<section id="building-an-e-portfolio-with-quarto" class="level3 blog-card">
+<h3 class="anchored" data-anchor-id="building-an-e-portfolio-with-quarto">Building an E-Portfolio with Quarto</h3>
+<p>How this portfolio helped me practise structured content, version control, and web publishing.</p>
+<p><a href="reflection.html" class="card-link">Read reflection</a></p>
+</section>
+</div>
+</section>
+<section id="contact-details" class="level2">
+<h2 class="anchored" data-anchor-id="contact-details">Contact Details</h2>
+<div class="contact-wrap">
+<div class="contact-methods">
+<div class="contact-row">
+<p><span class="contact-label">Location</span> <span>Dublin, Ireland</span></p>
+</div>
+<p><a class="contact-row contact-email" href="mailto:saahil.bhatt30@gmail.com"> <span class="contact-label">Email</span> <span>saahil.bhatt30@gmail.com</span> </a></p>
+<div class="social-icon-row" aria-label="Social profile links">
+<p><a class="social-icon-link" href="https://www.linkedin.com/in/sahil-bhattacharya-257924228" target="_blank" rel="noopener" aria-label="LinkedIn profile"> <i class="bi bi-linkedin"></i> <span>LinkedIn</span> </a></p>
+<p><a class="social-icon-link" href="https://github.com/Saahil0206" target="_blank" rel="noopener" aria-label="GitHub profile"> <i class="bi bi-github"></i> <span>GitHub</span> </a></p>
+</div>
+</div>
+</div>
+</section>
+
+
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const revealSelectors = [
+    ".hero",
+    ".section",
+    ".page-title",
+    ".content-page",
+    ".contact-wrap",
+    ".portfolio-card",
+    ".skill-card",
+    ".media-card",
+    ".blog-card",
+    ".info-card",
+    ".profile-panel",
+    ".quarto-grid-item"
+  ];
+
+  const revealItems = Array.from(document.querySelectorAll(revealSelectors.join(",")));
+
+  document.body.classList.add("portfolio-loaded");
+
+  if (motionQuery.matches || !("IntersectionObserver" in window)) {
+    revealItems.forEach((item) => item.classList.add("is-visible"));
+    return;
+  }
+
+  revealItems.forEach((item, index) => {
+    item.classList.add("reveal");
+    item.style.setProperty("--reveal-delay", `${Math.min(index % 6, 5) * 70}ms`);
+  });
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.16,
+    rootMargin: "0px 0px -8% 0px"
+  });
+
+  revealItems.forEach((item) => observer.observe(item));
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -755,15 +763,15 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Sahil Ashish Bhattacharya · MSc Business Analytics · Dublin City University</p>
+<p>© 2025 Sahil Ashish Bhattacharya</p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
-    </div>
+<p>MSc Business Analytics · Dublin City University</p>
+</div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/saahi0206" target="_blank">
+    <a class="nav-link" href="https://github.com/Saahil0206" target="_blank">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
@@ -773,9 +781,6 @@ ul.task-list li input[type="checkbox"] {
       <i class="bi bi-linkedin" role="img">
 </i> 
     </a>
-  </li>  
-    <li class="nav-item">
- Built with Quarto
   </li>  
 </ul>
     </div>

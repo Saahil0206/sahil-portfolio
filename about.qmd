@@ -1,73 +1,73 @@
 ---
-title: "About Me"
-format: html
-toc: true
-page-layout: full
-about:
-    template: jolla
-    image: images/logo.png
-    image-width: 14em
-    image-shape: round
-    links:
-        - icon: linkedin
-          href: https://www.linkedin.com/in/sahil-bhattacharya-257924228
-          target: _blank
-          text: LinkedIn
-        - icon: github
-          href: https://github.com/saahi0206
-          target: _blank
-          text: GitHub
-        - icon: envelope
-          href: mailto:saahil.bhatt30@gmail.com
-          text: Email
-        - text: "📄 Download CV"
-          href: cv/sahil-bhattacharya-cv.pdf
-          target: _blank
+title: "About"
 ---
 
-## Biography
+::: {.page-title}
+I am an MSc Business Analytics student at Dublin City University with an interest in data analytics, machine learning, NLP, and business strategy.
+:::
 
-My name is **Sahil Ashish Bhattacharya**. I am currently pursuing an **MSc in Business Analytics** at **Dublin City University (DCU)**, Dublin, Ireland.
+::: {.content-page}
+::: {.profile-panel}
+![](images/logo.png){fig-alt="Sahil Bhattacharya logo"}
 
-My academic journey has given me a strong foundation in quantitative methods, data-driven decision-making, and applied machine learning. I am particularly interested in how AI and ML can be deployed to address real business challenges — from customer retention strategy to natural language processing pipelines.
+::: {.profile-copy}
+### Sahil Ashish Bhattacharya
 
-I enjoy working with data end-to-end: gathering and cleaning raw datasets, building and evaluating predictive models, and communicating insights clearly to both technical and non-technical audiences.
+My academic work sits at the intersection of technical analysis and business decision-making. I enjoy working with data end-to-end: understanding the problem, preparing the dataset, building analytical models, and communicating insights clearly to technical and non-technical audiences.
 
----
+I am particularly interested in practical applications of AI and machine learning, especially where analytics can improve customer strategy, operational decisions, and digital products.
+:::
+:::
 
 ## Education
 
-**MSc Business Analytics**
-Dublin City University (DCU) · Dublin, Ireland · 2024 – Present
+**MSc Business Analytics**  
+Dublin City University · Dublin, Ireland · 2024-Present
 
----
+## Professional Interests
 
-## Technical Skills
+::: {.details-list}
+::: {.detail-item}
+**Applied Machine Learning**  
+Building and evaluating models that address real business questions.
+:::
 
-- **Programming:** Python (pandas, scikit-learn, matplotlib, seaborn, transformers), SQL
-- **Machine Learning:** Classification, Regression, Clustering, Hyperparameter Tuning, Model Evaluation
-- **NLP & AI:** BERT, Transformer Models, Text Classification, Generative AI
-- **Data Analytics:** Exploratory Data Analysis, Statistical Modelling, Data Visualisation
-- **Tools:** Jupyter Notebook, Google Colab, Git, GitHub, Quarto
-- **Business:** CRM Strategy, Customer Segmentation, Business Reporting
+::: {.detail-item}
+**Natural Language Processing**  
+Exploring transformer models, text classification, and generative AI workflows.
+:::
 
----
+::: {.detail-item}
+**Customer Analytics**  
+Using behavioural data to understand segmentation, retention, and customer lifetime value.
+:::
 
-## Interests
-
-- Machine Learning & Artificial Intelligence
-- Natural Language Processing
-- Business Analytics & Data-Driven Strategy
-- Python Programming
-- CRM & Customer Retention Analytics
-
----
+::: {.detail-item}
+**Data Communication**  
+Turning technical findings into clear recommendations, visuals, and written insight.
+:::
+:::
 
 ## Contact
 
-| | |
-|--|--|
-| 📧 Email | [saahil.bhatt30@gmail.com](mailto:saahil.bhatt30@gmail.com) |
-| 💼 LinkedIn | [linkedin.com/in/sahil-bhattacharya-257924228](https://www.linkedin.com/in/sahil-bhattacharya-257924228) |
-| 🐙 GitHub | [github.com/saahi0206](https://github.com/saahi0206) |
-| 📄 CV | [Download PDF](cv/sahil-bhattacharya-cv.pdf) |
+<div class="contact-methods compact">
+<a class="contact-row contact-email" href="mailto:saahil.bhatt30@gmail.com">
+<span class="contact-label">Email</span>
+<span>saahil.bhatt30@gmail.com</span>
+</a>
+
+<div class="social-icon-row" aria-label="Social profile links">
+<a class="social-icon-link" href="https://www.linkedin.com/in/sahil-bhattacharya-257924228" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+<i class="bi bi-linkedin"></i>
+<span>LinkedIn</span>
+</a>
+
+<a class="social-icon-link" href="https://github.com/Saahil0206" target="_blank" rel="noopener" aria-label="GitHub profile">
+<i class="bi bi-github"></i>
+<span>GitHub</span>
+</a>
+</div>
+
+<a class="button" href="cv/sahil-bhattacharya-cv.pdf" target="_blank">Download CV</a>
+</div>
+:::

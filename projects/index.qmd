@@ -1,13 +1,37 @@
 ---
 title: "Projects"
-format: html
-page-layout: full
-listing:
-    contents: "."
-    type: grid
-    fields: [title, description, image]
-    exclude:
-        filename: "index.qmd"
 ---
 
-My MSc in Business Analytics at Dublin City University has involved applied projects across CRM strategy, machine learning, and natural language processing. Each project below reflects hands-on analytical work combining technical and business thinking.
+::: {.page-title}
+Selected project articles and case studies across NLP, smart-city forecasting, and CRM strategy. Each case study focuses on the business problem, analytical approach, and practical takeaway.
+:::
+
+::: {.section .project-index}
+::: {.project-index-list}
+
+::: {.project-index-item}
+### [BERT vs Generative AI](project-bert-genai.html)
+
+A business-focused comparison of transformer fine-tuning and zero-shot LLM workflows for sentiment analysis, framed around customer service escalation and content curation.
+
+[Read Project](project-bert-genai.html){.card-link}
+:::
+
+::: {.project-index-item}
+### [Traffic & Air Pollution Prediction](project-gorey.html)
+
+A smart-city forecasting project using IoT sensor and weather data to support proactive traffic and public-health decision-making in Gorey.
+
+[Read Project](project-gorey.html){.card-link}
+:::
+
+::: {.project-index-item}
+### [The Fan Growth Engine](project-fai-crm.html)
+
+A data-driven CRM strategy for improving fan retention, lifecycle engagement, and long-term supporter value in Irish football.
+
+[Read Project](project-fai-crm.html){.card-link}
+:::
+
+:::
+:::

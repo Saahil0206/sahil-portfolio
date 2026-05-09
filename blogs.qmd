@@ -1,0 +1,35 @@
+---
+title: "Blogs"
+---
+
+::: {.page-title}
+Short reflective posts about analytics practice, model selection, business strategy, and portfolio development.
+:::
+
+::: {.section}
+::: {.blog-grid}
+::: {.blog-card}
+### Choosing Between BERT and Generative AI
+
+A reflection on why model choice depends on workflow, constraints, cost, interpretability, and the business context.
+
+[Read more](projects/project-bert-genai.html){.card-link}
+:::
+
+::: {.blog-card}
+### Why Data Collection Shapes Analysis
+
+Lessons from the FAI CRM project on how upstream data decisions shape downstream insight.
+
+[Read more](projects/project-fai-crm.html){.card-link}
+:::
+
+::: {.blog-card}
+### Building a Professional E-Portfolio
+
+A reflection on using Quarto, GitHub Pages, and structured writing to communicate analytical work.
+
+[Read reflection](reflection.html){.card-link}
+:::
+:::
+:::

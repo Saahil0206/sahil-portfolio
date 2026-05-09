@@ -1,83 +1,67 @@
 ---
-title: "BERT vs Generative AI for Text Classification"
-description: "Comparing transformer-based classification (BERT) with generative AI approaches for NLP text analysis tasks in a Jupyter notebook environment."
-image: ../images/project2.png
+title: "BERT vs Generative AI"
+subtitle: "A business-focused comparison of transformer fine-tuning and zero-shot LLM classification for sentiment analysis."
+image: ../images/project-bert.jpg
 format: html
 page-layout: article
 ---
 
-## Project Overview
+## Overview
 
-This project was completed as part of my MSc in Business Analytics at Dublin City University. The assessment involved working in a **Jupyter notebook** environment to implement and evaluate two distinct approaches to text classification: a traditional **BERT-based transformer model** and a **Generative AI approach**, comparing their performance, workflow characteristics, and practical trade-offs.
+Sentiment analysis is one of the most practical NLP tasks in business because it helps organisations turn unstructured customer feedback into usable signals. In this project, I compared two different approaches to binary sentiment classification: a fine-tuned BERT model and a zero-shot generative AI workflow using Llama 3. The goal was not just to compare model scores, but to evaluate which approach made more sense for a realistic business use case.
 
----
+I framed the project around a streaming-platform scenario where customer reviews could be used for two purposes: identifying strongly negative feedback for service escalation and supporting content curation decisions. This made the work more than a technical model comparison. It became an exercise in choosing the right AI approach under business constraints.
 
-## Background
+## Problem / Context
 
-Text classification is a foundational NLP task with wide business applications — from sentiment analysis of customer feedback to automated document routing, spam filtering, and topic categorisation. Two major paradigms have emerged for tackling these tasks:
+Streaming platforms receive large volumes of user reviews, and manually reading them is not scalable. An automated sentiment pipeline can help surface dissatisfied customers earlier and give decision-makers a more systematic view of audience response. In practice, that could support customer service teams, recommendation workflows, and catalogue management.
 
-1. **BERT-style discriminative models** — fine-tuned transformer encoders that learn to classify input text directly into predefined categories. Well-suited to structured, supervised classification with labelled training data.
+The key question behind this project was simple: should a business use a traditional fine-tuned NLP model or a large generative model for this kind of classification task? That decision affects cost, speed, data requirements, explainability, and deployment complexity.
 
-2. **Generative AI approaches** — large language models prompted to perform classification through instruction following, few-shot prompting, or zero-shot reasoning. Require no fine-tuning but rely on prompt design and model capability.
+## Approach / Methodology
 
-Comparing these approaches — not just on accuracy, but on interpretability, resource requirements, workflow design, and business fit — was the core analytical challenge of this project.
+To explore this, I used the Rotten Tomatoes dataset for binary sentiment classification. I fine-tuned `bert-base-uncased` using the Hugging Face Trainer pipeline and compared it against Llama 3 running locally through Ollama in a zero-shot setting.
 
----
+The BERT workflow required labelled data, tokenisation, training, and evaluation. The Llama 3 workflow relied on prompt design and post-processing rather than task-specific training. I evaluated both models using accuracy, precision, recall, and F1-score, while also considering practical trade-offs such as inference cost, scalability, flexibility, and privacy implications from local deployment.
 
-## Methodology
+## What I did
 
-### BERT-Based Classification
+- Built a fine-tuning pipeline for BERT using Hugging Face and `bert-base-uncased`.
+- Designed a zero-shot prompting workflow for Llama 3 running locally through Ollama.
+- Evaluated both models using accuracy, precision, recall, and F1-score.
+- Framed the comparison around a realistic streaming-platform decision-support use case.
+- Reflected on ethical AI issues such as transparency, fairness, privacy, and deployment governance.
 
-The BERT pipeline involved:
+## Results / Outcomes
 
-- **Tokenisation** using the Hugging Face `transformers` library (`bert-base-uncased`)
-- **Fine-tuning** on a labelled text dataset with a classification head
-- **Evaluation** using accuracy, F1 score, and confusion matrix analysis
-- **Training** via Google Colab with GPU runtime to manage compute requirements
+| Model | Accuracy | Precision | Recall | F1 |
+|---|---:|---:|---:|---:|
+| BERT | 0.830 | 0.811 | 0.835 | 0.823 |
+| Llama 3 | 0.930 | 0.934 | 0.914 | 0.924 |
 
-### Generative AI Approach
+Llama 3 outperformed BERT in this comparison, but the result should be interpreted carefully. BERT was evaluated on 500 examples, while Llama 3 was evaluated on 200 examples due to runtime constraints. The outcome suggests that zero-shot generative AI can perform strongly on practical classification tasks, especially when labelled data is limited, but it does not automatically make it the better production choice.
 
-The generative AI pipeline involved:
+## Why it matters
 
-- **Zero-shot and few-shot prompting** to elicit classifications from a large language model
-- **Prompt engineering** to structure inputs consistently and extract structured label outputs
-- **Evaluation** on the same held-out test set for direct comparison with BERT
+This project matters because many organisations are now deciding whether to use task-specific models or general-purpose LLMs for applied NLP workflows. The answer is rarely just “use the model with the best score.” A business also needs to consider labelled data availability, cost, latency, reproducibility, governance, and how the model will be used by real teams.
 
----
+## What I learned
 
-## Key Findings
+This project changed the way I think about model selection. I went in expecting the fine-tuned classifier to win, but the generative model delivered stronger results in a low-data setting. That reinforced an important lesson: in applied analytics, the best model is the one that fits the business context, data availability, and operational constraints.
 
-| Dimension | BERT | Generative AI |
-|-----------|------|--------------|
-| Accuracy (test set) | Strong on in-distribution data | Competitive on ambiguous cases |
-| Training required | Yes — labelled data needed | No — zero-shot capable |
-| Interpretability | Moderate (attention weights) | Low (black-box prompting) |
-| Latency | Fast at inference | Slower per call |
-| Workflow complexity | Higher (fine-tuning pipeline) | Lower (prompt-based) |
-| Best fit | High-volume, structured tasks | Exploratory or low-resource settings |
+It also showed me that AI project evaluation should go beyond benchmark scores. Cost, reproducibility, interpretability, latency, and governance all matter when a model moves from notebook to business workflow.
 
-The comparison revealed that **model choice is not just an accuracy decision** — it is a workflow design decision that depends on the volume of labelled data available, the required inference speed, the interpretability demands of the use case, and the cost of model deployment.
+## Tools / Skills
 
----
+- Python
+- Hugging Face Transformers
+- BERT fine-tuning
+- Llama 3 via Ollama
+- Prompt engineering
+- Model evaluation
+- NLP
+- Responsible AI
 
-## Reflection
+## Takeaway
 
-This project had a significant impact on how I think about model selection in applied NLP.
-
-Going into it, I expected the comparison to be straightforward: BERT would win on accuracy for a structured classification task, and generative AI would be less precise but more flexible. What I found was more nuanced. Generative AI approaches performed surprisingly well on ambiguous or edge-case examples where context and semantic understanding mattered more than pattern matching on labelled training examples. BERT, by contrast, was more consistent and reliable on clear, in-distribution cases where sufficient labelled data had been provided.
-
-More importantly, I came to understand that **the framing of "which model is better" is often the wrong question**. The better question is: *better for what, in what context, with what constraints?* A business deploying a customer service routing tool at scale needs speed, consistency, and low operational cost — BERT fine-tuned on their specific categories is likely the right tool. An analyst quickly exploring the themes in a new corpus of documents, without labelled data, may get more value from a generative AI approach in hours rather than weeks.
-
-Working inside a Jupyter notebook also reinforced the importance of clear, reproducible experimental structure. Tracking experiments, documenting preprocessing decisions, and presenting evaluation results in a readable format are skills I actively practised and improved through this project.
-
-The project deepened my interest in **NLP and applied machine learning** considerably. It also gave me a much more grounded understanding of the practical engineering trade-offs involved in deploying language models — something that is increasingly relevant for anyone working in business analytics as AI tools become standard components of the analytics stack.
-
----
-
-## Tools & Methods
-
-- Python (transformers, torch, scikit-learn, pandas, numpy)
-- Hugging Face `bert-base-uncased`
-- Jupyter Notebook / Google Colab
-- Zero-shot and few-shot prompting
-- F1 score, accuracy, confusion matrix evaluation
+This project helped me connect technical NLP modelling with real business decision-making by comparing not just model performance, but also the practical trade-offs involved in deploying AI responsibly.
