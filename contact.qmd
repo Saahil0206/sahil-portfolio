@@ -3,7 +3,7 @@ title: "Contact Details"
 ---
 
 ::: {.page-title}
-I am open to internships, graduate roles, research collaborations, and conversations about analytics, machine learning, and business strategy.
+I am open to internships, graduate roles, business analyst, data analyst, finance-related analytical roles, research collaborations, and conversations about analytics, machine learning, and business strategy.
 :::
 
 ::: {.contact-wrap}
@@ -12,6 +12,11 @@ I am open to internships, graduate roles, research collaborations, and conversat
 <span class="contact-label">Location</span>
 <span>Dublin, Ireland</span>
 </div>
+
+<a class="contact-row" href="tel:+353871199595">
+<span class="contact-label">Phone</span>
+<span>+353 87 119 9595</span>
+</a>
 
 <a class="contact-row contact-email" href="mailto:saahil.bhatt30@gmail.com">
 <span class="contact-label">Email</span>
@@ -30,23 +35,4 @@ I am open to internships, graduate roles, research collaborations, and conversat
 </a>
 </div>
 </div>
-
-## Send a Message
-
-::: {.contact-form}
-<form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
-  <label for="name">Your name</label>
-  <input type="text" id="name" name="name" placeholder="Jane Smith" required>
-
-  <label for="email">Your email</label>
-  <input type="email" id="email" name="email" placeholder="jane@example.com" required>
-
-  <label for="message">Message</label>
-  <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
-
-  <button type="submit">Send Message</button>
-</form>
-:::
-
-Replace `YOUR_FORMSPREE_ID` with your Formspree form ID when you are ready to receive messages.
 :::

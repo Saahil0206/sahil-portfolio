@@ -3,45 +3,45 @@ title: "Skills"
 ---
 
 ::: {.page-title}
-Technical and analytical skills developed through MSc coursework, applied projects, and independent portfolio work.
+Technical, analytical, and professional skills developed through MSc coursework, engineering study, operations support, certifications, and applied portfolio projects.
 :::
 
 ::: {.section}
 ::: {.skills-grid}
 ::: {.skill-card}
-### Python
+### Business Analysis
 
-Data cleaning, analysis, visualisation, model building, and notebook-based experimentation using pandas, scikit-learn, matplotlib, seaborn, and transformers.
+Requirements understanding, process support, stakeholder communication, documentation, problem investigation, and decision-support thinking.
 :::
 
 ::: {.skill-card}
-### SQL
+### Data Analysis
 
-Querying, joining, filtering, and structuring relational data for business analytics workflows.
+Data cleaning, preparation, interpretation, reporting, KPI tracking, dashboard thinking, and insight generation for business contexts.
 :::
 
 ::: {.skill-card}
-### Machine Learning
+### Python, SQL & R
 
-Classification, regression, clustering, model evaluation, confusion matrices, F1 score, and practical experimentation.
+Notebook-based analysis, querying, joining, filtering, transformation, visualisation, and structured analytical workflows.
 :::
 
 ::: {.skill-card}
-### NLP
+### BI & Visualisation
 
-Text classification, transformer models, BERT, prompt-based classification, and generative AI comparison.
+Power BI, Tableau, Excel, data storytelling, presentation of insights, and business-facing communication.
 :::
 
 ::: {.skill-card}
-### Power BI
+### Forecasting & ML
 
-Dashboard thinking, KPI communication, stakeholder reporting, and visual analytics.
+Time-series analysis, LSTM, GRU, Random Forest, feature engineering, model comparison, and evaluation workflows.
 :::
 
 ::: {.skill-card}
-### Excel
+### Generative AI
 
-Data preparation, spreadsheet modelling, formulas, pivot tables, and business-facing analysis.
+Prompt engineering, large language model concepts, ChatGPT applications, NLP, ethical AI, data security, and responsible data use.
 :::
 :::
 :::

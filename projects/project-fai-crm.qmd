@@ -1,7 +1,7 @@
 ---
 title: "The Fan Growth Engine"
 subtitle: "A data-driven CRM strategy for improving fan retention, lifecycle engagement, and long-term supporter value."
-image: ../images/project-fai.jpg
+image: ../images/logo.png
 format: html
 page-layout: article
 ---

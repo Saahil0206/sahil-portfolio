@@ -8,206 +8,185 @@ title: "Home"
 }
 </style>
 
-::: {.hero}
-<p class="hero-kicker">Business Analytics · Data Science · E-Portfolio</p>
+```{=html}
+<main class="arkitek-page">
+  <section class="ark-hero" id="home-section">
+    <div class="ark-container">
+      <div class="ark-hero-grid">
+        <div class="ark-hero-copy reveal-block">
+          <p class="ark-eyebrow">Business Analytics · Data Science · AI · MSc Portfolio</p>
+          <h1>Creating Analytical Masterpieces</h1>
+          <p class="ark-spaced">S a h i l &nbsp; c o n n e c t s &nbsp; b u s i n e s s &nbsp; a n a l y s i s, &nbsp; d a t a &nbsp; s c i e n c e, &nbsp; A I, &nbsp; a n d &nbsp; c l e a r &nbsp; s t a k e h o l d e r &nbsp; c o m m u n i c a t i o n.</p>
+          <div class="ark-actions">
+            <a href="projects/" class="ark-button primary">See Projects</a>
+            <a href="contact.html" class="ark-button">Let's Grow</a>
+          </div>
+        </div>
 
-# Sahil Ashish <span class="accent">Bhattacharya</span>
+        <div class="ark-hero-panel reveal-block">
+          <span>Selected Focus</span>
+          <ul>
+            <li>NLP and Generative AI</li>
+            <li>Smart-city forecasting</li>
+            <li>Business analysis and CRM strategy</li>
+          </ul>
+        </div>
+      </div>
 
-<p class="hero-lede">Welcome to my e-portfolio, where I showcase my data analytics work through applied projects, technical skills, reflective writing, and professional development as an MSc Business Analytics student.</p>
+      <div class="ark-service-ticker" aria-label="Portfolio focus areas">
+        <span>Machine Learning</span>
+        <span>Business Analytics</span>
+        <span>Data Strategy</span>
+        <span>Forecasting</span>
+      </div>
+    </div>
+  </section>
 
-<div class="hero-actions">
-  <a href="projects/">View Portfolio</a>
-  <a href="about.html" class="secondary">About Me</a>
-</div>
-:::
+  <section class="ark-section" id="skills-section">
+    <div class="ark-container">
+      <div class="ark-section-head reveal-block">
+        <p>Services</p>
+        <h2>What I Do</h2>
+        <span>Analytics work from requirements understanding and data preparation to model evaluation, reporting, and stakeholder-ready communication.</span>
+      </div>
 
-::: {.section}
-## Portfolio
+      <div class="ark-services">
+        <article class="ark-service-card reveal-block">
+          <span>01</span>
+          <h3>Business Analysis</h3>
+          <p>Understanding requirements, supporting processes, documenting workflows, and turning business questions into analytical work.</p>
+        </article>
+        <article class="ark-service-card reveal-block">
+          <span>02</span>
+          <h3>Data Analysis</h3>
+          <p>Cleaning, structuring, reporting, and visualising data so patterns, KPIs, and decisions become clearer.</p>
+        </article>
+        <article class="ark-service-card reveal-block">
+          <span>03</span>
+          <h3>Forecasting & ML</h3>
+          <p>Building forecasting, classification, and evaluation workflows with practical business trade-offs in mind.</p>
+        </article>
+        <article class="ark-service-card reveal-block">
+          <span>04</span>
+          <h3>Communication</h3>
+          <p>Turning technical work into reports, dashboards, project stories, and recommendations for business audiences.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-<p class="section-intro">Selected MSc work combining analytical thinking, business context, and clear communication.</p>
+  <section class="ark-section ark-about" id="about-section">
+    <div class="ark-container">
+      <div class="ark-about-grid">
+        <div class="ark-section-head reveal-block">
+          <p>About Me</p>
+          <h2>Business analytics with technical depth, operations experience, and commercial awareness.</h2>
+        </div>
+        <div class="ark-about-copy reveal-block">
+          <p>I am an MSc Business Analytics student at Dublin City University with a Mechanical Engineering background and professional experience in AI and operations support.</p>
+          <p>My work sits at the intersection of business analysis, data analysis, machine learning, CRM analytics, and decision support. I enjoy working end-to-end: understanding the problem, preparing data, building analytical workflows, and communicating value clearly to technical and non-technical audiences.</p>
+          <a href="cv/sahil-bhattacharya-cv.pdf" target="_blank" class="ark-button">View CV</a>
+        </div>
+      </div>
 
-::: {.portfolio-grid .project-card-grid}
-::: {.portfolio-card}
-![](images/project-bert.jpg){fig-alt="Abstract visual for NLP sentiment analysis using BERT and generative AI"}
+      <div class="ark-stats">
+        <div class="reveal-block"><span>03</span><p>Featured Projects</p></div>
+        <div class="reveal-block"><span>MSc</span><p>Business Analytics</p></div>
+        <div class="reveal-block"><span>02</span><p>Years Experience</p></div>
+      </div>
+    </div>
+  </section>
 
-::: {.portfolio-card-content}
-### BERT vs Generative AI
+  <section class="ark-section" id="portfolio-section">
+    <div class="ark-container">
+      <div class="ark-section-head reveal-block">
+        <p>Portfolio</p>
+        <h2>Selected Projects</h2>
+        <span>Three applied case studies across NLP, public-sector forecasting, and CRM strategy.</span>
+      </div>
 
-A business-focused comparison of transformer fine-tuning and zero-shot LLM workflows for sentiment analysis.
+      <div class="ark-projects">
+        <a class="ark-project-card reveal-block" href="projects/project-bert-genai.html">
+          <img src="images/project2.png" alt="Abstract visual for NLP sentiment analysis using BERT and generative AI">
+          <div>
+            <span>Sentiment Analysis · NLP</span>
+            <h3>BERT vs Generative AI</h3>
+            <p>A business-focused comparison of transformer fine-tuning and zero-shot LLM workflows for sentiment analysis.</p>
+          </div>
+        </a>
 
-[Read Project](projects/project-bert-genai.html){.card-link}
-:::
-:::
+        <a class="ark-project-card reveal-block" href="projects/project-gorey.html">
+          <img src="images/project1.png" alt="Smart-city traffic and air pollution forecasting visual for Gorey">
+          <div>
+            <span>Smart City · Forecasting</span>
+            <h3>Traffic &amp; Air Pollution Prediction</h3>
+            <p>A smart-city forecasting project using IoT sensor and weather data to support proactive decision-making in Gorey.</p>
+          </div>
+        </a>
 
-::: {.portfolio-card}
-![](images/project-gorey.jpg){fig-alt="Smart-city traffic and air pollution forecasting visual for Gorey"}
+        <a class="ark-project-card reveal-block" href="projects/project-fai-crm.html">
+          <img src="images/logo.png" alt="Football Association of Ireland CRM and fan lifecycle strategy visual">
+          <div>
+            <span>CRM · Sports Strategy</span>
+            <h3>The Fan Growth Engine</h3>
+            <p>A data-driven CRM strategy for improving fan retention and lifecycle engagement in Irish football.</p>
+          </div>
+        </a>
+      </div>
 
-::: {.portfolio-card-content}
-### Traffic & Air Pollution Prediction
+      <div class="ark-more reveal-block">
+        <a href="projects/" class="ark-button primary">View all projects</a>
+      </div>
+    </div>
+  </section>
 
-A smart-city forecasting project using IoT sensor and weather data to support proactive decision-making in Gorey.
+  <section class="ark-section" id="media-section">
+    <div class="ark-container">
+      <div class="ark-section-head reveal-block">
+        <p>Media</p>
+        <h2>Presentation Spaces</h2>
+        <span>Areas for project walkthroughs, notebook demos, and reflective learning media.</span>
+      </div>
 
-[Read Project](projects/project-gorey.html){.card-link}
-:::
-:::
+      <div class="ark-media-grid">
+        <article class="ark-media-card reveal-block"><span>01</span><h3>Analytics Presentation</h3><p>Video walkthrough space for project presentations.</p></article>
+        <article class="ark-media-card reveal-block"><span>02</span><h3>Data Science Audio</h3><p>Podcast or reflection space for analytics learning.</p></article>
+        <article class="ark-media-card reveal-block"><span>03</span><h3>Notebook Walkthrough</h3><p>Technical demo space for modelling and methodology.</p></article>
+      </div>
+    </div>
+  </section>
 
-::: {.portfolio-card}
-![](images/project-fai.jpg){fig-alt="Football Association of Ireland CRM and fan lifecycle strategy visual"}
+  <section class="ark-section" id="blog-section">
+    <div class="ark-container">
+      <div class="ark-section-head reveal-block">
+        <p>Blogs</p>
+        <h2>Writing & Reflection</h2>
+      </div>
 
-::: {.portfolio-card-content}
-### The Fan Growth Engine
+      <div class="ark-blog-list">
+        <a class="reveal-block" href="projects/project-bert-genai.html"><span>Model Selection</span><strong>Choosing Between BERT and Generative AI</strong></a>
+        <a class="reveal-block" href="projects/project-fai-crm.html"><span>CRM Strategy</span><strong>Data Collection Shapes Analysis</strong></a>
+        <a class="reveal-block" href="reflection.html"><span>Portfolio Practice</span><strong>Building an E-Portfolio with Quarto</strong></a>
+      </div>
+    </div>
+  </section>
 
-A data-driven CRM strategy for improving fan retention and lifecycle engagement in Irish football.
-
-[Read Project](projects/project-fai-crm.html){.card-link}
-:::
-:::
-:::
-:::
-
-::: {.section}
-## About Me
-
-::: {.profile-panel}
-![](images/logo.png){fig-alt="Sahil Bhattacharya logo"}
-
-::: {.profile-copy}
-### Sahil Ashish Bhattacharya
-
-I am an MSc Business Analytics student at Dublin City University. My interests include machine learning, natural language processing, CRM analytics, and the communication of data-driven business recommendations.
-
-[Download CV](cv/sahil-bhattacharya-cv.pdf){.button}
-:::
-:::
-:::
-
-::: {.section}
-## Skills
-
-::: {.card-grid}
-::: {.skill-card}
-### Python
-
-Data cleaning, analysis, visualisation, machine learning, and notebook-based experimentation.
-:::
-
-::: {.skill-card}
-### SQL
-
-Querying, filtering, joining, and preparing relational data for analytics workflows.
-:::
-
-::: {.skill-card}
-### Power BI
-
-Dashboard thinking, KPI communication, and stakeholder-focused reporting.
-:::
-
-::: {.skill-card}
-### R
-
-Statistical thinking, reproducible analysis, and data exploration.
-:::
-
-::: {.skill-card}
-### Excel
-
-Spreadsheet modelling, pivot tables, formulas, and structured business analysis.
-:::
-
-::: {.skill-card}
-### Web Design
-
-Quarto websites, GitHub Pages, HTML/CSS editing, and portfolio presentation.
-:::
-:::
-:::
-
-::: {.section}
-## Media
-
-<p class="section-intro">Space for recorded explainers, presentation walkthroughs, and learning media connected to my analytics work.</p>
-
-::: {.media-grid}
-::: {.media-card}
-### YouTube Presentation
-
-::: {.media-embed}
-YouTube embed placeholder
-:::
-
-A short project presentation or portfolio walkthrough can be embedded here.
-:::
-
-::: {.media-card}
-### Spotify Reflection
-
-::: {.media-embed}
-Spotify embed placeholder
-:::
-
-An audio reflection, discussion, or learning note can be embedded here.
-:::
-:::
-:::
-
-::: {.section}
-## Blogs
-
-::: {.blog-grid}
-::: {.blog-card}
-### Choosing Between BERT and Generative AI
-
-A short reflection on model selection, workflow constraints, and practical NLP classification.
-
-[Read project](projects/project-bert-genai.html){.card-link}
-:::
-
-::: {.blog-card}
-### Data Collection Shapes Analysis
-
-What the FAI CRM project taught me about upstream data design and downstream business insight.
-
-[Read project](projects/project-fai-crm.html){.card-link}
-:::
-
-::: {.blog-card}
-### Building an E-Portfolio with Quarto
-
-How this portfolio helped me practise structured content, version control, and web publishing.
-
-[Read reflection](reflection.html){.card-link}
-:::
-:::
-:::
-
-::: {.section}
-## Contact Details
-
-::: {.contact-wrap}
-<div class="contact-methods">
-<div class="contact-row">
-<span class="contact-label">Location</span>
-<span>Dublin, Ireland</span>
-</div>
-
-<a class="contact-row contact-email" href="mailto:saahil.bhatt30@gmail.com">
-<span class="contact-label">Email</span>
-<span>saahil.bhatt30@gmail.com</span>
-</a>
-
-<div class="social-icon-row" aria-label="Social profile links">
-<a class="social-icon-link" href="https://www.linkedin.com/in/sahil-bhattacharya-257924228" target="_blank" rel="noopener" aria-label="LinkedIn profile">
-<i class="bi bi-linkedin"></i>
-<span>LinkedIn</span>
-</a>
-
-<a class="social-icon-link" href="https://github.com/Saahil0206" target="_blank" rel="noopener" aria-label="GitHub profile">
-<i class="bi bi-github"></i>
-<span>GitHub</span>
-</a>
-</div>
-</div>
-:::
-:::
-
+  <section class="ark-contact" id="contact-section">
+    <div class="ark-container">
+      <div class="ark-contact-grid">
+        <div class="reveal-block">
+          <p>Contact</p>
+          <h2>Let's Talk<br>Your Next Project</h2>
+        </div>
+        <div class="ark-contact-links reveal-block">
+          <span>Dublin, Ireland</span>
+          <a href="tel:+353871199595">+353 87 119 9595</a>
+          <a href="mailto:saahil.bhatt30@gmail.com">saahil.bhatt30@gmail.com</a>
+          <a href="https://www.linkedin.com/in/sahil-bhattacharya-257924228" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/Saahil0206" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+```

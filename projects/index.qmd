@@ -6,32 +6,37 @@ title: "Projects"
 Selected project articles and case studies across NLP, smart-city forecasting, and CRM strategy. Each case study focuses on the business problem, analytical approach, and practical takeaway.
 :::
 
-::: {.section .project-index}
-::: {.project-index-list}
+```{=html}
+<section class="ark-section project-index">
+  <div class="ark-container">
+    <div class="ark-projects">
+      <a class="ark-project-card reveal-block" href="project-bert-genai.html">
+        <img src="../images/project2.png" alt="Abstract dashboard-style visual representing NLP sentiment analysis and model comparison">
+        <div>
+          <span>Sentiment Analysis / NLP</span>
+          <h3>BERT vs Generative AI</h3>
+          <p>A business-focused comparison of transformer fine-tuning and zero-shot LLM workflows for sentiment analysis, framed around customer service escalation and content curation.</p>
+        </div>
+      </a>
 
-::: {.project-index-item}
-### [BERT vs Generative AI](project-bert-genai.html)
+      <a class="ark-project-card reveal-block" href="project-gorey.html">
+        <img src="../images/project1.png" alt="Smart-city analytics visual representing traffic forecasting and air pollution prediction">
+        <div>
+          <span>Smart City / Forecasting</span>
+          <h3>Traffic &amp; Air Pollution Prediction</h3>
+          <p>A smart-city forecasting project using IoT sensor and weather data to support proactive traffic and public-health decision-making in Gorey.</p>
+        </div>
+      </a>
 
-A business-focused comparison of transformer fine-tuning and zero-shot LLM workflows for sentiment analysis, framed around customer service escalation and content curation.
-
-[Read Project](project-bert-genai.html){.card-link}
-:::
-
-::: {.project-index-item}
-### [Traffic & Air Pollution Prediction](project-gorey.html)
-
-A smart-city forecasting project using IoT sensor and weather data to support proactive traffic and public-health decision-making in Gorey.
-
-[Read Project](project-gorey.html){.card-link}
-:::
-
-::: {.project-index-item}
-### [The Fan Growth Engine](project-fai-crm.html)
-
-A data-driven CRM strategy for improving fan retention, lifecycle engagement, and long-term supporter value in Irish football.
-
-[Read Project](project-fai-crm.html){.card-link}
-:::
-
-:::
-:::
+      <a class="ark-project-card reveal-block" href="project-fai-crm.html">
+        <img src="../images/logo.png" alt="SB Analytics logo used for the FAI fan growth and CRM strategy case study">
+        <div>
+          <span>CRM / Sports Strategy</span>
+          <h3>The Fan Growth Engine</h3>
+          <p>A data-driven CRM strategy for improving fan retention, lifecycle engagement, and long-term supporter value in Irish football.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+```

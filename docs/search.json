@@ -4,84 +4,63 @@
     "href": "skills.html",
     "title": "Skills",
     "section": "",
-    "text": "Technical and analytical skills developed through MSc coursework, applied projects, and independent portfolio work.\n\n\n\n\nPython\nData cleaning, analysis, visualisation, model building, and notebook-based experimentation using pandas, scikit-learn, matplotlib, seaborn, and transformers.\n\n\nSQL\nQuerying, joining, filtering, and structuring relational data for business analytics workflows.\n\n\nMachine Learning\nClassification, regression, clustering, model evaluation, confusion matrices, F1 score, and practical experimentation.\n\n\nNLP\nText classification, transformer models, BERT, prompt-based classification, and generative AI comparison.\n\n\nPower BI\nDashboard thinking, KPI communication, stakeholder reporting, and visual analytics.\n\n\nExcel\nData preparation, spreadsheet modelling, formulas, pivot tables, and business-facing analysis."
+    "text": "Technical, analytical, and professional skills developed through MSc coursework, engineering study, operations support, certifications, and applied portfolio projects.\n\n\n\n\nBusiness Analysis\nRequirements understanding, process support, stakeholder communication, documentation, problem investigation, and decision-support thinking.\n\n\nData Analysis\nData cleaning, preparation, interpretation, reporting, KPI tracking, dashboard thinking, and insight generation for business contexts.\n\n\nPython, SQL & R\nNotebook-based analysis, querying, joining, filtering, transformation, visualisation, and structured analytical workflows.\n\n\nBI & Visualisation\nPower BI, Tableau, Excel, data storytelling, presentation of insights, and business-facing communication.\n\n\nForecasting & ML\nTime-series analysis, LSTM, GRU, Random Forest, feature engineering, model comparison, and evaluation workflows.\n\n\nGenerative AI\nPrompt engineering, large language model concepts, ChatGPT applications, NLP, ethical AI, data security, and responsible data use."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am an MSc Business Analytics student at Dublin City University with an interest in data analytics, machine learning, NLP, and business strategy."
+    "text": "MSc Business Analytics student at Dublin City University with a Mechanical Engineering background, professional operations support experience, and a growing focus on business analytics, data science, and AI-enabled decision support."
+  },
+  {
+    "objectID": "about.html#professional-summary",
+    "href": "about.html#professional-summary",
+    "title": "About",
+    "section": "Professional Summary",
+    "text": "Professional Summary\nResults-oriented MSc Business Analytics student with two years of professional experience across artificial intelligence and operations support environments. I bring a blend of business analysis, data analysis, stakeholder support, and technical problem-solving across academic, AI, and client-service settings.\nI enjoy working end-to-end: understanding requirements, preparing data, building analytical workflows, evaluating outputs, and communicating insights clearly to technical and non-technical audiences. My current learning and project work also covers generative AI, data ethics, data security, forecasting, and presentation skills."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About",
     "section": "Education",
-    "text": "Education\nMSc Business Analytics\nDublin City University · Dublin, Ireland · 2024-Present"
+    "text": "Education\n\n\nMSc Business Analytics\nDublin City University · Dublin, Ireland · 2024-Present\nPostgraduate study focused on analytics, data-driven decision-making, business intelligence, reporting, data visualisation, and applied machine learning.\n\n\nB.E. Mechanical Engineering\nNew Horizon Institute of Technology and Management · Thane, India · 2021-2024\nBuilt foundations in mechanics, thermodynamics, applied mathematics, and structured engineering problem-solving.\n\n\nDiploma in Mechanical Engineering\nMuchhala Polytechnic · Thane, India · 2016-2020\nDeveloped technical grounding in mechanics, manufacturing, thermodynamics, and engineering applications before progressing into degree-level engineering and analytics-oriented study."
+  },
+  {
+    "objectID": "about.html#professional-experience",
+    "href": "about.html#professional-experience",
+    "title": "About",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nSenior Executive Associate / Operations Support\nConcentrix, supporting J.P. Morgan account · Dublin, Ireland\n\nSupported business and operational processes in a high-performance client environment.\nContributed to accurate workflow handling, issue resolution, documentation, and service support.\nWorked in detail-sensitive settings requiring professionalism, timely execution, and strong stakeholder communication.\nDeveloped experience relevant to business analysis, including process understanding, problem investigation, reporting awareness, and quality-focused support."
+  },
+  {
+    "objectID": "about.html#certifications-learning",
+    "href": "about.html#certifications-learning",
+    "title": "About",
+    "section": "Certifications & Learning",
+    "text": "Certifications & Learning\n\n\nKubicle Diploma: Foundations of Generative AI\nCompleted Nov 2025\nCovered generative AI concepts, large language models, ChatGPT applications, and prompt design for business use cases.\n\n\nPython & Data Preparation\nPython fundamentals, functions, loops, data storage, transformation, visualisation, and data preparation.\n\n\nData Literacy, Ethics & Security\nData and databases, data ethics, ethical thinking, information safety, and responsible data handling.\n\n\nData Presentation Skills\nPresenting data, telling stories with data, and communicating analytical findings effectively."
   },
   {
     "objectID": "about.html#professional-interests",
     "href": "about.html#professional-interests",
     "title": "About",
     "section": "Professional Interests",
-    "text": "Professional Interests\n\n\nApplied Machine Learning\nBuilding and evaluating models that address real business questions.\n\n\nNatural Language Processing\nExploring transformer models, text classification, and generative AI workflows.\n\n\nCustomer Analytics\nUsing behavioural data to understand segmentation, retention, and customer lifetime value.\n\n\nData Communication\nTurning technical findings into clear recommendations, visuals, and written insight."
+    "text": "Professional Interests\n\n\nBusiness & Data Analysis\nRequirements understanding, KPI thinking, reporting, process support, and insight generation.\n\n\nApplied Machine Learning\nForecasting, model comparison, feature engineering, and evaluation workflows for practical business questions.\n\n\nGenerative AI & NLP\nPrompt engineering, transformer models, text classification, ethical AI, and AI-enabled decision support.\n\n\nCustomer & Commercial Analytics\nSegmentation, CRM strategy, retention, lifecycle value, and stakeholder-ready recommendations."
   },
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
     "title": "About",
     "section": "Contact",
-    "text": "Contact\n\n Email saahil.bhatt30@gmail.com \n\n  LinkedIn \n  GitHub \n\nDownload CV"
+    "text": "Contact\n\n\nLocation Dublin, Ireland\n\n Email saahil.bhatt30@gmail.com \n Phone +353 87 119 9595 \n\n  LinkedIn \n  GitHub \n\nDownload CV"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Business Analytics · Data Science · E-Portfolio\n\n\n\n\nWelcome to my e-portfolio, where I showcase my data analytics work through applied projects, technical skills, reflective writing, and professional development as an MSc Business Analytics student.\n\n\nView Portfolio About Me"
-  },
-  {
-    "objectID": "index.html#portfolio",
-    "href": "index.html#portfolio",
-    "title": "Home",
-    "section": "Portfolio",
-    "text": "Portfolio\n\nSelected MSc work combining analytical thinking, business context, and clear communication.\n\n\n\n\n\nBERT vs Generative AI\nA business-focused comparison of transformer fine-tuning and zero-shot LLM workflows for sentiment analysis.\nRead Project\n\n\n\n\n\nTraffic & Air Pollution Prediction\nA smart-city forecasting project using IoT sensor and weather data to support proactive decision-making in Gorey.\nRead Project\n\n\n\n\n\nThe Fan Growth Engine\nA data-driven CRM strategy for improving fan retention and lifecycle engagement in Irish football.\nRead Project"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Home",
-    "section": "About Me",
-    "text": "About Me\n\n\n\nSahil Ashish Bhattacharya\nI am an MSc Business Analytics student at Dublin City University. My interests include machine learning, natural language processing, CRM analytics, and the communication of data-driven business recommendations.\nDownload CV"
-  },
-  {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
-    "title": "Home",
-    "section": "Skills",
-    "text": "Skills\n\n\nPython\nData cleaning, analysis, visualisation, machine learning, and notebook-based experimentation.\n\n\nSQL\nQuerying, filtering, joining, and preparing relational data for analytics workflows.\n\n\nPower BI\nDashboard thinking, KPI communication, and stakeholder-focused reporting.\n\n\nR\nStatistical thinking, reproducible analysis, and data exploration.\n\n\nExcel\nSpreadsheet modelling, pivot tables, formulas, and structured business analysis.\n\n\nWeb Design\nQuarto websites, GitHub Pages, HTML/CSS editing, and portfolio presentation."
-  },
-  {
-    "objectID": "index.html#media",
-    "href": "index.html#media",
-    "title": "Home",
-    "section": "Media",
-    "text": "Media\n\nSpace for recorded explainers, presentation walkthroughs, and learning media connected to my analytics work.\n\n\n\nYouTube Presentation\n\nYouTube embed placeholder\n\nA short project presentation or portfolio walkthrough can be embedded here.\n\n\nSpotify Reflection\n\nSpotify embed placeholder\n\nAn audio reflection, discussion, or learning note can be embedded here."
-  },
-  {
-    "objectID": "index.html#blogs",
-    "href": "index.html#blogs",
-    "title": "Home",
-    "section": "Blogs",
-    "text": "Blogs\n\n\nChoosing Between BERT and Generative AI\nA short reflection on model selection, workflow constraints, and practical NLP classification.\nRead project\n\n\nData Collection Shapes Analysis\nWhat the FAI CRM project taught me about upstream data design and downstream business insight.\nRead project\n\n\nBuilding an E-Portfolio with Quarto\nHow this portfolio helped me practise structured content, version control, and web publishing.\nRead reflection"
-  },
-  {
-    "objectID": "index.html#contact-details",
-    "href": "index.html#contact-details",
-    "title": "Home",
-    "section": "Contact Details",
-    "text": "Contact Details\n\n\n\nLocation Dublin, Ireland\n\n Email saahil.bhatt30@gmail.com \n\n  LinkedIn \n  GitHub"
+    "text": "Business Analytics · Data Science · AI · MSc Portfolio\n          Creating Analytical Masterpieces\n          S a h i l   c o n n e c t s   b u s i n e s s   a n a l y s i s,   d a t a   s c i e n c e,   A I,   a n d   c l e a r   s t a k e h o l d e r   c o m m u n i c a t i o n.\n          \n            See Projects\n            Let's Grow\n          \n        \n\n        \n          Selected Focus\n          \n            NLP and Generative AI\n            Smart-city forecasting\n            Business analysis and CRM strategy\n          \n        \n      \n\n      \n        Machine Learning\n        Business Analytics\n        Data Strategy\n        Forecasting\n      \n    \n  \n\n  \n    \n      \n        Services\n        What I Do\n        Analytics work from requirements understanding and data preparation to model evaluation, reporting, and stakeholder-ready communication.\n      \n\n      \n        \n          01\n          Business Analysis\n          Understanding requirements, supporting processes, documenting workflows, and turning business questions into analytical work.\n        \n        \n          02\n          Data Analysis\n          Cleaning, structuring, reporting, and visualising data so patterns, KPIs, and decisions become clearer.\n        \n        \n          03\n          Forecasting & ML\n          Building forecasting, classification, and evaluation workflows with practical business trade-offs in mind.\n        \n        \n          04\n          Communication\n          Turning technical work into reports, dashboards, project stories, and recommendations for business audiences.\n        \n      \n    \n  \n\n  \n    \n      \n        \n          About Me\n          Business analytics with technical depth, operations experience, and commercial awareness.\n        \n        \n          I am an MSc Business Analytics student at Dublin City University with a Mechanical Engineering background and professional experience in AI and operations support.\n          My work sits at the intersection of business analysis, data analysis, machine learning, CRM analytics, and decision support. I enjoy working end-to-end: understanding the problem, preparing data, building analytical workflows, and communicating value clearly to technical and non-technical audiences.\n          View CV\n        \n      \n\n      \n        03Featured Projects\n        MScBusiness Analytics\n        02Years Experience\n      \n    \n  \n\n  \n    \n      \n        Portfolio\n        Selected Projects\n        Three applied case studies across NLP, public-sector forecasting, and CRM strategy.\n      \n\n      \n        \n          \n          \n            Sentiment Analysis · NLP\n            BERT vs Generative AI\n            A business-focused comparison of transformer fine-tuning and zero-shot LLM workflows for sentiment analysis.\n          \n        \n\n        \n          \n          \n            Smart City · Forecasting\n            Traffic & Air Pollution Prediction\n            A smart-city forecasting project using IoT sensor and weather data to support proactive decision-making in Gorey.\n          \n        \n\n        \n          \n          \n            CRM · Sports Strategy\n            The Fan Growth Engine\n            A data-driven CRM strategy for improving fan retention and lifecycle engagement in Irish football.\n          \n        \n      \n\n      \n        View all projects\n      \n    \n  \n\n  \n    \n      \n        Media\n        Presentation Spaces\n        Areas for project walkthroughs, notebook demos, and reflective learning media.\n      \n\n      \n        01Analytics PresentationVideo walkthrough space for project presentations.\n        02Data Science AudioPodcast or reflection space for analytics learning.\n        03Notebook WalkthroughTechnical demo space for modelling and methodology.\n      \n    \n  \n\n  \n    \n      \n        Blogs\n        Writing & Reflection\n      \n\n      \n        Model SelectionChoosing Between BERT and Generative AI\n        CRM StrategyData Collection Shapes Analysis\n        Portfolio PracticeBuilding an E-Portfolio with Quarto\n      \n    \n  \n\n  \n    \n      \n        \n          Contact\n          Let's TalkYour Next Project\n        \n        \n          Dublin, Ireland\n          +353 87 119 9595\n          saahil.bhatt30@gmail.com\n          LinkedIn\n          GitHub"
   },
   {
     "objectID": "projects/project-gorey.html",
@@ -158,21 +137,14 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Selected project articles and case studies across NLP, smart-city forecasting, and CRM strategy. Each case study focuses on the business problem, analytical approach, and practical takeaway.\n\n\n\n\nBERT vs Generative AI\nA business-focused comparison of transformer fine-tuning and zero-shot LLM workflows for sentiment analysis, framed around customer service escalation and content curation.\nRead Project\n\n\nTraffic & Air Pollution Prediction\nA smart-city forecasting project using IoT sensor and weather data to support proactive traffic and public-health decision-making in Gorey.\nRead Project\n\n\nThe Fan Growth Engine\nA data-driven CRM strategy for improving fan retention, lifecycle engagement, and long-term supporter value in Irish football.\nRead Project"
+    "text": "Selected project articles and case studies across NLP, smart-city forecasting, and CRM strategy. Each case study focuses on the business problem, analytical approach, and practical takeaway.\n\n\n  \n    \n      \n        \n        \n          Sentiment Analysis / NLP\n          BERT vs Generative AI\n          A business-focused comparison of transformer fine-tuning and zero-shot LLM workflows for sentiment analysis, framed around customer service escalation and content curation.\n        \n      \n\n      \n        \n        \n          Smart City / Forecasting\n          Traffic & Air Pollution Prediction\n          A smart-city forecasting project using IoT sensor and weather data to support proactive traffic and public-health decision-making in Gorey.\n        \n      \n\n      \n        \n        \n          CRM / Sports Strategy\n          The Fan Growth Engine\n          A data-driven CRM strategy for improving fan retention, lifecycle engagement, and long-term supporter value in Irish football."
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact Details",
     "section": "",
-    "text": "I am open to internships, graduate roles, research collaborations, and conversations about analytics, machine learning, and business strategy."
-  },
-  {
-    "objectID": "contact.html#send-a-message",
-    "href": "contact.html#send-a-message",
-    "title": "Contact Details",
-    "section": "Send a Message",
-    "text": "Send a Message\n\n\nYour name \nYour email \nMessage\n\n\nSend Message\n\n\n\nReplace YOUR_FORMSPREE_ID with your Formspree form ID when you are ready to receive messages."
+    "text": "I am open to internships, graduate roles, business analyst, data analyst, finance-related analytical roles, research collaborations, and conversations about analytics, machine learning, and business strategy.\n\n\n\n\nLocation Dublin, Ireland\n\n Phone +353 87 119 9595 \n Email saahil.bhatt30@gmail.com \n\n  LinkedIn \n  GitHub"
   },
   {
     "objectID": "reflection.html",
