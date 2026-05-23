@@ -321,6 +321,149 @@ main.content,
   border-bottom: 0;
 }
 
+/* ─── Hero side column (panel + avatar stacked) ─────── */
+
+.ark-hero-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  justify-self: end;
+}
+
+.ark-hero-side .ark-hero-panel {
+  max-width: none;
+  justify-self: unset;
+}
+
+/* ─── Morphing blob avatar ─────────────────────────────── */
+
+.ark-avatar-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 1 / 1;
+  justify-self: end;
+}
+
+.ark-blob {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ark-blob-shape {
+  position: absolute;
+  width: 72%;
+  aspect-ratio: 1;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  background: conic-gradient(from 0deg, #c1121f, #e84a5f, #ff6b6b, #c1121f);
+  opacity: 0.85;
+  filter: blur(0.5px);
+  animation: blob-morph 12s var(--ease) infinite, blob-float 8s var(--ease) infinite;
+  will-change: transform, border-radius;
+}
+
+.ark-blob-shape--2 {
+  width: 52%;
+  background: conic-gradient(from 180deg, #8f0d17, #c1121f, #e84a5f, #8f0d17);
+  opacity: 0.5;
+  filter: blur(6px);
+  animation: blob-morph 15s var(--ease) infinite reverse, blob-float 10s var(--ease) infinite;
+  animation-delay: -3s, -2s;
+}
+
+.ark-blob-shape--3 {
+  width: 38%;
+  background: radial-gradient(circle at 30% 30%, #ff6b6b, #c1121f);
+  opacity: 0.6;
+  filter: blur(2px);
+  animation: blob-morph 18s var(--ease) infinite, blob-float 12s var(--ease) infinite;
+  animation-delay: -6s, -4s;
+  mix-blend-mode: screen;
+}
+
+@keyframes blob-morph {
+  0%, 100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  25%      { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+  50%      { border-radius: 50% 60% 30% 60% / 40% 50% 60% 50%; }
+  75%      { border-radius: 35% 45% 65% 55% / 65% 35% 55% 45%; }
+}
+
+@keyframes blob-float {
+  0%, 100% { transform: translateY(0px) scale(1); }
+  33%      { transform: translateY(-10px) scale(1.03); }
+  66%      { transform: translateY(6px) scale(0.97); }
+}
+
+/* Orbital ring */
+.ark-ring {
+  position: absolute;
+  inset: 5%;
+  width: 90%;
+  height: 90%;
+  animation: ring-spin 30s linear infinite;
+}
+
+@keyframes ring-spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Orbiting dots */
+.ark-ring-dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--red);
+  opacity: 0.5;
+  top: 50%;
+  left: 50%;
+  animation: orbit-1 12s linear infinite;
+}
+
+.ark-ring-dot--2 {
+  width: 4px;
+  height: 4px;
+  opacity: 0.35;
+  animation: orbit-2 16s linear infinite reverse;
+}
+
+.ark-ring-dot--3 {
+  width: 5px;
+  height: 5px;
+  opacity: 0.4;
+  animation: orbit-3 20s linear infinite;
+}
+
+@keyframes orbit-1 {
+  from { transform: translate(-50%, -50%) rotate(0deg) translateX(90px) rotate(0deg); }
+  to   { transform: translate(-50%, -50%) rotate(360deg) translateX(90px) rotate(-360deg); }
+}
+
+@keyframes orbit-2 {
+  from { transform: translate(-50%, -50%) rotate(0deg) translateX(72px) rotate(0deg); }
+  to   { transform: translate(-50%, -50%) rotate(360deg) translateX(72px) rotate(-360deg); }
+}
+
+@keyframes orbit-3 {
+  from { transform: translate(-50%, -50%) rotate(0deg) translateX(58px) rotate(0deg); }
+  to   { transform: translate(-50%, -50%) rotate(360deg) translateX(58px) rotate(-360deg); }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .ark-blob-shape,
+  .ark-ring,
+  .ark-ring-dot {
+    animation: none !important;
+  }
+  .ark-blob-shape {
+    border-radius: 50%;
+  }
+}
+
 .ark-service-ticker {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

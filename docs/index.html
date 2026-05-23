@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f484533680d6cc0d870645acfe82b34a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-86e68e77c43fd9ad2433cb8c37001006.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -179,13 +179,38 @@ ul.task-list li input[type="checkbox"] {
           </div>
         </div>
 
-        <div class="ark-hero-panel reveal-block">
-          <span>Selected Focus</span>
-          <ul>
-            <li>NLP and Generative AI</li>
-            <li>Smart-city forecasting</li>
-            <li>Business analysis and CRM strategy</li>
-          </ul>
+        <div class="ark-hero-side reveal-block">
+          <div class="ark-hero-panel">
+            <span>Selected Focus</span>
+            <ul>
+              <li>NLP and Generative AI</li>
+              <li>Smart-city forecasting</li>
+              <li>Business analysis and CRM strategy</li>
+            </ul>
+          </div>
+
+          <div class="ark-avatar-wrap">
+          <!--
+            Avatar slot — pure CSS morphing blob by default.
+            To replace with a Spline 3D scene:
+              1. In Spline, click Export → Embed → Copy URL
+              2. Replace the <div class="ark-blob">…</div> block below with:
+                 <iframe src="YOUR_SPLINE_URL" width="100%" height="100%" frameborder="0" style="border-radius:28px;"></iframe>
+              3. Remove the .ark-blob and .ark-ring CSS from styles.scss
+          -->
+          <div class="ark-blob">
+            <div class="ark-blob-shape"></div>
+            <div class="ark-blob-shape ark-blob-shape--2"></div>
+            <div class="ark-blob-shape ark-blob-shape--3"></div>
+          </div>
+          <svg class="ark-ring" viewbox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="100" cy="100" r="85" stroke="rgba(193,18,31,0.12)" stroke-width="1" stroke-dasharray="4 8"></circle>
+            <circle cx="100" cy="100" r="70" stroke="rgba(193,18,31,0.08)" stroke-width="0.5" stroke-dasharray="2 6"></circle>
+          </svg>
+          <div class="ark-ring-dot"></div>
+          <div class="ark-ring-dot ark-ring-dot--2"></div>
+          <div class="ark-ring-dot ark-ring-dot--3"></div>
+        </div>
         </div>
       </div>
 
